@@ -1,0 +1,153 @@
+
+lobby_mailg.png
+size: 1651,585
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+db
+  rotate: false
+  xy: 1442, 399
+  size: 180, 184
+  orig: 182, 186
+  offset: 1, 1
+  index: -1
+dbfx/dbfx_00
+  rotate: false
+  xy: 562, 9
+  size: 186, 190
+  orig: 308, 315
+  offset: 61, 65
+  index: -1
+dbfx/dbfx_02
+  rotate: false
+  xy: 498, 393
+  size: 188, 190
+  orig: 308, 315
+  offset: 61, 64
+  index: -1
+dbfx/dbfx_04
+  rotate: false
+  xy: 938, 15
+  size: 186, 188
+  orig: 308, 315
+  offset: 61, 66
+  index: -1
+dbfx/dbfx_06
+  rotate: false
+  xy: 1067, 396
+  size: 186, 187
+  orig: 308, 315
+  offset: 61, 66
+  index: -1
+dbfx/dbfx_08
+  rotate: false
+  xy: 940, 205
+  size: 186, 188
+  orig: 308, 315
+  offset: 61, 66
+  index: -1
+dbfx/dbfx_10
+  rotate: false
+  xy: 1128, 207
+  size: 185, 187
+  orig: 308, 315
+  offset: 61, 67
+  index: -1
+dbfx/dbfx_12
+  rotate: false
+  xy: 562, 201
+  size: 187, 190
+  orig: 308, 315
+  offset: 61, 65
+  index: -1
+dbfx/dbfx_14
+  rotate: false
+  xy: 688, 395
+  size: 188, 188
+  orig: 308, 315
+  offset: 60, 66
+  index: -1
+dbfx/dbfx_16
+  rotate: true
+  xy: 1126, 16
+  size: 187, 186
+  orig: 308, 315
+  offset: 61, 65
+  index: -1
+dbfx/dbfx_18
+  rotate: true
+  xy: 1255, 397
+  size: 186, 185
+  orig: 308, 315
+  offset: 61, 65
+  index: -1
+dbfx/dbfx_20
+  rotate: true
+  xy: 750, 9
+  size: 190, 186
+  orig: 308, 315
+  offset: 60, 64
+  index: -1
+dbfx/dbfx_22
+  rotate: true
+  xy: 1314, 18
+  size: 187, 184
+  orig: 308, 315
+  offset: 60, 66
+  index: -1
+dbfx/dbfx_24
+  rotate: true
+  xy: 1315, 208
+  size: 187, 184
+  orig: 308, 315
+  offset: 60, 67
+  index: -1
+dbfx/dbfx_26
+  rotate: false
+  xy: 751, 205
+  size: 187, 188
+  orig: 308, 315
+  offset: 60, 64
+  index: -1
+dbfx/dbfx_28
+  rotate: false
+  xy: 878, 395
+  size: 187, 188
+  orig: 308, 315
+  offset: 61, 65
+  index: -1
+gl1
+  rotate: false
+  xy: 341, 93
+  size: 219, 220
+  orig: 226, 226
+  offset: 3, 3
+  index: -1
+gl2
+  rotate: true
+  xy: 294, 315
+  size: 268, 202
+  orig: 305, 227
+  offset: 21, 20
+  index: -1
+gx1
+  rotate: false
+  xy: 2, 7
+  size: 337, 252
+  orig: 341, 256
+  offset: 2, 2
+  index: -1
+gx3
+  rotate: true
+  xy: 2, 261
+  size: 322, 290
+  orig: 341, 307
+  offset: 9, 7
+  index: -1
+gx4
+  rotate: true
+  xy: 1500, 2
+  size: 204, 149
+  orig: 234, 172
+  offset: 15, 16
+  index: -1

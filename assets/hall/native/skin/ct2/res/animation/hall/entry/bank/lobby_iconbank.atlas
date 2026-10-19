@@ -1,0 +1,41 @@
+
+lobby_iconbank.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ep
+  rotate: false
+  xy: 2, 2
+  size: 151, 88
+  orig: 151, 88
+  offset: 0, 0
+  index: -1
+l1
+  rotate: false
+  xy: 305, 187
+  size: 161, 55
+  orig: 161, 55
+  offset: 0, 0
+  index: -1
+l2
+  rotate: true
+  xy: 305, 115
+  size: 70, 71
+  orig: 70, 71
+  offset: 0, 0
+  index: -1
+l3
+  rotate: false
+  xy: 183, 120
+  size: 120, 122
+  orig: 120, 122
+  offset: 0, 0
+  index: -1
+yy
+  rotate: false
+  xy: 2, 92
+  size: 179, 150
+  orig: 179, 150
+  offset: 0, 0
+  index: -1

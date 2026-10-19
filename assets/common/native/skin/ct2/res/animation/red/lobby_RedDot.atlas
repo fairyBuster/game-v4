@@ -1,0 +1,27 @@
+
+lobby_RedDot.png
+size: 123,53
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gx1
+  rotate: false
+  xy: 53, 7
+  size: 44, 44
+  orig: 44, 44
+  offset: 0, 0
+  index: -1
+gx2
+  rotate: false
+  xy: 2, 2
+  size: 49, 49
+  orig: 53, 53
+  offset: 2, 2
+  index: -1
+hw03_lobby_icon_unread
+  rotate: false
+  xy: 99, 24
+  size: 22, 27
+  orig: 23, 27
+  offset: 0, 0
+  index: -1

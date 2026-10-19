@@ -1,0 +1,111 @@
+
+hw03_lobby_independent.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fireworks/fireworks_00
+  rotate: true
+  xy: 1874, 543
+  size: 134, 127
+  orig: 383, 337
+  offset: 97, 89
+  index: -1
+fireworks/fireworks_02
+  rotate: true
+  xy: 628, 431
+  size: 247, 150
+  orig: 383, 337
+  offset: 90, 81
+  index: -1
+fireworks/fireworks_04
+  rotate: true
+  xy: 780, 420
+  size: 260, 173
+  orig: 383, 337
+  offset: 83, 73
+  index: -1
+fireworks/fireworks_06
+  rotate: false
+  xy: 1599, 482
+  size: 273, 195
+  orig: 383, 337
+  offset: 76, 64
+  index: -1
+fireworks/fireworks_08
+  rotate: false
+  xy: 1310, 479
+  size: 287, 215
+  orig: 383, 337
+  offset: 68, 55
+  index: -1
+fireworks/fireworks_10
+  rotate: false
+  xy: 325, 443
+  size: 301, 235
+  orig: 383, 337
+  offset: 61, 45
+  index: -1
+fireworks/fireworks_12
+  rotate: true
+  xy: 288, 21
+  size: 313, 254
+  orig: 383, 337
+  offset: 54, 35
+  index: -1
+fireworks/fireworks_14
+  rotate: false
+  xy: 1310, 696
+  size: 321, 273
+  orig: 383, 337
+  offset: 46, 25
+  index: -1
+fireworks/fireworks_16
+  rotate: true
+  xy: 2, 2
+  size: 332, 284
+  orig: 383, 337
+  offset: 38, 21
+  index: -1
+fireworks/fireworks_18
+  rotate: false
+  xy: 325, 680
+  size: 337, 289
+  orig: 383, 337
+  offset: 32, 22
+  index: -1
+fireworks/fireworks_20
+  rotate: false
+  xy: 1633, 679
+  size: 311, 290
+  orig: 383, 337
+  offset: 28, 26
+  index: -1
+fireworks/fireworks_22
+  rotate: false
+  xy: 2, 661
+  size: 321, 308
+  orig: 383, 337
+  offset: 22, 14
+  index: -1
+fireworks/fireworks_24
+  rotate: false
+  xy: 664, 682
+  size: 326, 287
+  orig: 383, 337
+  offset: 19, 37
+  index: -1
+fireworks/fireworks_26
+  rotate: true
+  xy: 2, 336
+  size: 323, 304
+  orig: 383, 337
+  offset: 19, 21
+  index: -1
+fireworks/fireworks_28
+  rotate: false
+  xy: 992, 686
+  size: 316, 283
+  orig: 383, 337
+  offset: 22, 42
+  index: -1

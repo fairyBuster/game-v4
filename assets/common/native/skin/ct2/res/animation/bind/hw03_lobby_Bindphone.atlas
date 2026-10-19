@@ -1,0 +1,139 @@
+
+hw03_lobby_Bindphone.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Gift1
+  rotate: false
+  xy: 473, 255
+  size: 138, 82
+  orig: 140, 84
+  offset: 1, 1
+  index: -1
+Gift2
+  rotate: false
+  xy: 122, 139
+  size: 114, 78
+  orig: 116, 80
+  offset: 1, 1
+  index: -1
+Gift3
+  rotate: false
+  xy: 1265, 1707
+  size: 275, 224
+  orig: 277, 226
+  offset: 1, 1
+  index: -1
+Gift4
+  rotate: false
+  xy: 851, 1394
+  size: 278, 64
+  orig: 280, 66
+  offset: 1, 1
+  index: -1
+Rings1
+  rotate: false
+  xy: 1131, 1404
+  size: 72, 54
+  orig: 81, 61
+  offset: 4, 4
+  index: -1
+Rings2
+  rotate: false
+  xy: 613, 283
+  size: 72, 54
+  orig: 81, 61
+  offset: 4, 4
+  index: -1
+Rings3
+  rotate: false
+  xy: 1030, 533
+  size: 72, 54
+  orig: 81, 61
+  offset: 4, 4
+  index: -1
+Rings4
+  rotate: false
+  xy: 1542, 1777
+  size: 72, 54
+  orig: 81, 61
+  offset: 4, 4
+  index: -1
+d1
+  rotate: true
+  xy: 473, 339
+  size: 348, 555
+  orig: 357, 563
+  offset: 4, 5
+  index: -1
+d2
+  rotate: false
+  xy: 2, 904
+  size: 847, 554
+  orig: 856, 563
+  offset: 4, 5
+  index: -1
+deng
+  rotate: false
+  xy: 2, 1460
+  size: 1225, 236
+  orig: 1227, 238
+  offset: 1, 1
+  index: -1
+guang01
+  rotate: false
+  xy: 2, 219
+  size: 469, 468
+  orig: 479, 479
+  offset: 4, 6
+  index: -1
+hong_g
+  rotate: false
+  xy: 1030, 589
+  size: 98, 98
+  orig: 98, 98
+  offset: 0, 0
+  index: -1
+huang_g
+  rotate: false
+  xy: 1542, 1833
+  size: 98, 98
+  orig: 98, 98
+  offset: 0, 0
+  index: -1
+lan_g
+  rotate: false
+  xy: 851, 1294
+  size: 98, 98
+  orig: 98, 98
+  offset: 0, 0
+  index: -1
+lv
+  rotate: false
+  xy: 2, 1698
+  size: 1261, 233
+  orig: 1263, 235
+  offset: 1, 1
+  index: -1
+lv_g
+  rotate: false
+  xy: 2, 2
+  size: 98, 98
+  orig: 98, 98
+  offset: 0, 0
+  index: -1
+ty
+  rotate: false
+  xy: 2, 689
+  size: 1166, 213
+  orig: 1166, 213
+  offset: 0, 0
+  index: -1
+xx2
+  rotate: false
+  xy: 2, 102
+  size: 118, 115
+  orig: 120, 117
+  offset: 1, 1
+  index: -1

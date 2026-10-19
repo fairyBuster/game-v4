@@ -1,0 +1,146 @@
+
+lobby_FlashRebate.png
+size: 907,316
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+particle/particle_000
+  rotate: false
+  xy: 513, 115
+  size: 154, 100
+  orig: 175, 122
+  offset: 10, 4
+  index: -1
+particle/particle_001
+  rotate: false
+  xy: 157, 216
+  size: 155, 100
+  orig: 175, 122
+  offset: 10, 4
+  index: -1
+particle/particle_002
+  rotate: false
+  xy: 201, 113
+  size: 154, 101
+  orig: 175, 122
+  offset: 10, 4
+  index: -1
+particle/particle_003
+  rotate: false
+  xy: 669, 115
+  size: 153, 100
+  orig: 175, 122
+  offset: 11, 5
+  index: -1
+particle/particle_004
+  rotate: false
+  xy: 358, 11
+  size: 154, 100
+  orig: 175, 122
+  offset: 10, 6
+  index: -1
+particle/particle_005
+  rotate: false
+  xy: 629, 217
+  size: 155, 99
+  orig: 175, 122
+  offset: 9, 7
+  index: -1
+particle/particle_006
+  rotate: false
+  xy: 314, 216
+  size: 155, 100
+  orig: 175, 122
+  offset: 9, 7
+  index: -1
+particle/particle_007
+  rotate: true
+  xy: 0, 55
+  size: 157, 99
+  orig: 175, 122
+  offset: 8, 8
+  index: -1
+particle/particle_008
+  rotate: false
+  xy: 471, 217
+  size: 156, 99
+  orig: 175, 122
+  offset: 8, 9
+  index: -1
+particle/particle_009
+  rotate: true
+  xy: 101, 57
+  size: 155, 98
+  orig: 175, 122
+  offset: 9, 10
+  index: -1
+particle/particle_010
+  rotate: false
+  xy: 201, 13
+  size: 155, 98
+  orig: 175, 122
+  offset: 9, 11
+  index: -1
+particle/particle_011
+  rotate: false
+  xy: 671, 16
+  size: 155, 97
+  orig: 175, 122
+  offset: 9, 12
+  index: -1
+particle/particle_012
+  rotate: false
+  xy: 357, 113
+  size: 154, 101
+  orig: 175, 122
+  offset: 9, 8
+  index: -1
+particle/particle_013
+  rotate: false
+  xy: 0, 214
+  size: 155, 102
+  orig: 175, 122
+  offset: 9, 5
+  index: -1
+particle/particle_014
+  rotate: false
+  xy: 514, 15
+  size: 155, 98
+  orig: 175, 122
+  offset: 9, 5
+  index: -1
+xing4
+  rotate: false
+  xy: 139, 13
+  size: 42, 42
+  orig: 43, 42
+  offset: 1, 0
+  index: -1
+zt1
+  rotate: false
+  xy: 0, 9
+  size: 137, 44
+  orig: 137, 44
+  offset: 0, 0
+  index: -1
+zt2
+  rotate: true
+  xy: 828, 0
+  size: 109, 79
+  orig: 109, 80
+  offset: 0, 0
+  index: -1
+zt3
+  rotate: true
+  xy: 828, 111
+  size: 111, 79
+  orig: 113, 79
+  offset: 1, 0
+  index: -1
+zt4
+  rotate: false
+  xy: 786, 224
+  size: 109, 92
+  orig: 109, 92
+  offset: 0, 0
+  index: -1

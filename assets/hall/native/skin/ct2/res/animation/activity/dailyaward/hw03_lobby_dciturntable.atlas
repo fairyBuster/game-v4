@@ -1,0 +1,195 @@
+
+hw03_lobby_dciturntable.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+FREECOIN_12png
+  rotate: false
+  xy: 825, 424
+  size: 114, 114
+  orig: 114, 114
+  offset: 0, 0
+  index: -1
+bao01/bao01_00
+  rotate: false
+  xy: 173, 17
+  size: 105, 53
+  orig: 388, 228
+  offset: 138, 84
+  index: -1
+bao01/bao01_01
+  rotate: true
+  xy: 933, 911
+  size: 105, 53
+  orig: 388, 228
+  offset: 138, 84
+  index: -1
+bao01/bao01_02
+  rotate: true
+  xy: 173, 72
+  size: 241, 105
+  orig: 388, 228
+  offset: 70, 58
+  index: -1
+bao01/bao01_03
+  rotate: true
+  xy: 304, 238
+  size: 371, 161
+  orig: 388, 228
+  offset: 5, 30
+  index: -1
+bao01/bao01_04
+  rotate: true
+  xy: 2, 2
+  size: 311, 169
+  orig: 388, 228
+  offset: 35, 26
+  index: -1
+bao01/bao01_05
+  rotate: true
+  xy: 762, 705
+  size: 311, 169
+  orig: 388, 228
+  offset: 35, 26
+  index: -1
+bao01/bao01_06
+  rotate: true
+  xy: 467, 237
+  size: 249, 177
+  orig: 388, 228
+  offset: 66, 22
+  index: -1
+bao01/bao01_07
+  rotate: true
+  xy: 280, 47
+  size: 189, 183
+  orig: 388, 228
+  offset: 96, 19
+  index: -1
+bao01/bao01_08
+  rotate: false
+  xy: 465, 72
+  size: 163, 163
+  orig: 388, 228
+  offset: 109, 29
+  index: -1
+bao01/bao01_09
+  rotate: false
+  xy: 692, 540
+  size: 163, 163
+  orig: 388, 228
+  offset: 109, 29
+  index: -1
+bao01/bao01_10
+  rotate: false
+  xy: 895, 206
+  size: 109, 103
+  orig: 388, 228
+  offset: 137, 62
+  index: -1
+bao01/bao01_11
+  rotate: true
+  xy: 895, 311
+  size: 111, 107
+  orig: 388, 228
+  offset: 133, 58
+  index: -1
+bao01/bao01_12
+  rotate: false
+  xy: 892, 96
+  size: 110, 108
+  orig: 388, 228
+  offset: 129, 55
+  index: -1
+bao01/bao01_13
+  rotate: false
+  xy: 773, 177
+  size: 117, 114
+  orig: 388, 228
+  offset: 125, 52
+  index: -1
+bao01/bao01_14
+  rotate: true
+  xy: 773, 293
+  size: 123, 120
+  orig: 388, 228
+  offset: 121, 49
+  index: -1
+bao01/bao01_15
+  rotate: false
+  xy: 646, 290
+  size: 125, 126
+  orig: 388, 228
+  offset: 119, 46
+  index: -1
+bao01/bao01_16
+  rotate: true
+  xy: 692, 418
+  size: 120, 131
+  orig: 388, 228
+  offset: 115, 43
+  index: -1
+bao01/bao01_17
+  rotate: false
+  xy: 646, 164
+  size: 125, 124
+  orig: 388, 228
+  offset: 111, 41
+  index: -1
+bao01/bao01_18
+  rotate: false
+  xy: 630, 49
+  size: 128, 113
+  orig: 388, 228
+  offset: 108, 54
+  index: -1
+bao01/bao01_19
+  rotate: true
+  xy: 857, 571
+  size: 132, 114
+  orig: 388, 228
+  offset: 104, 54
+  index: -1
+bao01/bao01_20
+  rotate: true
+  xy: 646, 425
+  size: 61, 40
+  orig: 388, 228
+  offset: 102, 111
+  index: -1
+dfsg
+  rotate: false
+  xy: 2, 315
+  size: 300, 294
+  orig: 300, 294
+  offset: 0, 0
+  index: -1
+dzg
+  rotate: false
+  xy: 2, 611
+  size: 456, 405
+  orig: 466, 405
+  offset: 4, 0
+  index: -1
+fsg
+  rotate: false
+  xy: 460, 722
+  size: 300, 294
+  orig: 300, 294
+  offset: 0, 0
+  index: -1
+fsg3
+  rotate: false
+  xy: 467, 488
+  size: 223, 232
+  orig: 223, 232
+  offset: 0, 0
+  index: -1
+txk_by
+  rotate: false
+  xy: 760, 71
+  size: 91, 91
+  orig: 91, 91
+  offset: 0, 0
+  index: -1

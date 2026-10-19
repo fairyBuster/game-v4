@@ -1,0 +1,61 @@
+{
+  "theme": "epic Greek mythology, Mount Olympus divine thunder, orchestral fantasy casino",
+  "results": [
+    {
+      "key": "spin-start",
+      "web": "C:\\projects\\ai\\slots-oneshots\\gates-of-olympus\\assets\\sounds\\spin-start.web.ogg",
+      "duration": null
+    },
+    {
+      "key": "reel-stop",
+      "web": "C:\\projects\\ai\\slots-oneshots\\gates-of-olympus\\assets\\sounds\\reel-stop.web.ogg",
+      "duration": null
+    },
+    {
+      "key": "win",
+      "web": "C:\\projects\\ai\\slots-oneshots\\gates-of-olympus\\assets\\sounds\\win.web.ogg",
+      "duration": null
+    },
+    {
+      "key": "big-win",
+      "web": "C:\\projects\\ai\\slots-oneshots\\gates-of-olympus\\assets\\sounds\\big-win.web.ogg",
+      "duration": null
+    },
+    {
+      "key": "win-multiplier",
+      "web": "C:\\projects\\ai\\slots-oneshots\\gates-of-olympus\\assets\\sounds\\win-multiplier.web.ogg",
+      "duration": null
+    },
+    {
+      "key": "symbols-remove",
+      "web": "C:\\projects\\ai\\slots-oneshots\\gates-of-olympus\\assets\\sounds\\symbols-remove.web.ogg",
+      "duration": null
+    },
+    {
+      "key": "symbols-drop",
+      "web": "C:\\projects\\ai\\slots-oneshots\\gates-of-olympus\\assets\\sounds\\symbols-drop.web.ogg",
+      "duration": null
+    },
+    {
+      "key": "free-spins-start",
+      "web": "C:\\projects\\ai\\slots-oneshots\\gates-of-olympus\\assets\\sounds\\free-spins-start.web.ogg",
+      "duration": null
+    },
+    {
+      "key": "free-spins-end",
+      "web": "C:\\projects\\ai\\slots-oneshots\\gates-of-olympus\\assets\\sounds\\free-spins-end.web.ogg",
+      "duration": null
+    },
+    {
+      "key": "near-miss",
+      "web": "C:\\projects\\ai\\slots-oneshots\\gates-of-olympus\\assets\\sounds\\near-miss.web.ogg",
+      "duration": null
+    },
+    {
+      "key": "feature-start",
+      "web": "C:\\projects\\ai\\slots-oneshots\\gates-of-olympus\\assets\\sounds\\feature-start.web.ogg",
+      "duration": null
+    }
+  ],
+  "failures": 0
+}

@@ -1,0 +1,55 @@
+
+lobby_eventlist.png
+size: 405,197
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+02
+  rotate: true
+  xy: 2, 2
+  size: 193, 204
+  orig: 193, 204
+  offset: 0, 0
+  index: -1
+03
+  rotate: false
+  xy: 208, 75
+  size: 99, 120
+  orig: 110, 132
+  offset: 9, 10
+  index: -1
+glow2
+  rotate: false
+  xy: 309, 101
+  size: 94, 94
+  orig: 100, 100
+  offset: 3, 3
+  index: -1
+guang
+  rotate: false
+  xy: 208, 5
+  size: 94, 68
+  orig: 100, 84
+  offset: 4, 9
+  index: -1
+lizi_10
+  rotate: false
+  xy: 309, 30
+  size: 87, 69
+  orig: 148, 129
+  offset: 36, 27
+  index: -1
+xx
+  rotate: false
+  xy: 335, 13
+  size: 15, 15
+  orig: 19, 19
+  offset: 2, 2
+  index: -1
+xx1
+  rotate: false
+  xy: 304, 5
+  size: 29, 23
+  orig: 36, 27
+  offset: 3, 4
+  index: -1

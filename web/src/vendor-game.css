@@ -1,0 +1,15 @@
+.vg { position: absolute; inset: 0; background: #0b0714; }
+
+/* The vendor build lays itself out for a fixed 1524x810 box (its own CSS is patched to
+   overflow:hidden so it never scrolls). Inside that box their 806x606 canvas sits at
+   content (359, 28) and the first 359px are their (CSS-hidden) bet controls - dead space
+   we crop away instead of shrinking the board to fit the stage.
+
+   So: keep the iframe's layout size untouched (their JS lays out against it), put the
+   canvas at its native 1:1 scale, centred under our 56px header:
+     canvas visual = (359 + L, 28 + T) = (237, 68)   ->  L = -122, T = 40
+   One setting for all 7 themes - they share this page. */
+.vg-frame {
+  position: absolute; left: -122px; top: 40px; width: 1524px; height: 810px; border: 0;
+  transform: scale(1); transform-origin: top left;
+}

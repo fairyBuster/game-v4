@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slot Game RTP Simulator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        .simulator-controls {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input,
+        button {
+            padding: 8px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            padding: 10px 15px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        #results {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            white-space: pre-wrap;
+            font-family: monospace;
+            max-height: 500px;
+            overflow-y: auto;
+        }
+
+        .progress-bar {
+            height: 20px;
+            background-color: #e0e0e0;
+            border-radius: 4px;
+            margin-top: 10px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background-color: #4CAF50;
+            width: 0%;
+            transition: width 0.3s;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Slot Game RTP Simulator</h1>
+
+    <div class="simulator-controls">
+        <div class="form-group">
+            <label for="spins">Number of Spins:</label>
+            <input type="number" id="spins" value="100000" min="1000" step="1000">
+        </div>
+
+        <div class="form-group">
+            <label for="betAmount">Bet Amount:</label>
+            <input type="number" id="betAmount" value="10" min="1">
+        </div>
+
+        <div class="form-group">
+            <label for="logFrequency">Log Frequency:</label>
+            <input type="number" id="logFrequency" value="10000" min="1000" step="1000">
+        </div>
+
+        <div class="form-group">
+            <label>
+                <input type="checkbox" id="detailedResults" checked>
+                Show Detailed Results
+            </label>
+        </div>
+
+        <button id="startSimulation">Run Simulation</button>
+
+        <div class="progress-container" style="display: none;">
+            <p>Simulation running: <span id="progressText">0%</span></p>
+            <div class="progress-bar">
+                <div class="progress-fill"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="results"></div>
+
+    <script type="module">
+        import { simulateRTP } from './rtp-simulator.js';
+
+        document.getElementById('startSimulation').addEventListener('click', function () {
+            const resultsDiv = document.getElementById('results');
+            const progressContainer = document.querySelector('.progress-container');
+            const progressBar = document.querySelector('.progress-fill');
+            const progressText = document.getElementById('progressText');
+
+            // Get settings from form
+            const settings = {
+                spins: parseInt(document.getElementById('spins').value, 10),
+                betAmount: parseInt(document.getElementById('betAmount').value, 10),
+                logFrequency: parseInt(document.getElementById('logFrequency').value, 10),
+                detailedResults: document.getElementById('detailedResults').checked
+            };
+
+            // Clear previous results
+            resultsDiv.textContent = 'Running simulation...';
+
+            // Show progress bar
+            progressContainer.style.display = 'block';
+            progressBar.style.width = '0%';
+
+            // Create a console.log replacement to capture output
+            const originalLog = console.log;
+            const logs = [];
+
+            console.log = function (...args) {
+                const message = args.join(' ');
+                logs.push(message);
+                resultsDiv.textContent = logs.join('\n');
+
+                // Update progress if possible
+                if (message.includes('Processed')) {
+                    const percentMatch = message.match(/\((\d+\.\d+)%\)/);
+                    if (percentMatch && percentMatch[1]) {
+                        const percent = parseFloat(percentMatch[1]);
+                        progressBar.style.width = percent + '%';
+                        progressText.textContent = percent.toFixed(1) + '%';
+                    }
+                }
+
+                // Also print to original console
+                originalLog.apply(console, args);
+            };
+
+            // Run the simulation
+            setTimeout(() => {
+                try {
+                    simulateRTP(settings);
+                } catch (error) {
+                    console.log('Error during simulation:', error.message);
+                }
+
+                // Restore console.log
+                console.log = originalLog;
+            }, 100);
+        });
+    </script>
+</body>
+
+</html>

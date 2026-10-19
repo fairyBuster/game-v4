@@ -1,0 +1,216 @@
+
+lobby_pdd_TreasureChest.png
+size: 1751,1296
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg1
+  rotate: false
+  xy: 880, 1070
+  size: 452, 226
+  orig: 454, 229
+  offset: 1, 1
+  index: -1
+bg2
+  rotate: false
+  xy: 0, 103
+  size: 526, 534
+  orig: 551, 558
+  offset: 13, 12
+  index: -1
+bg3
+  rotate: false
+  xy: 0, 639
+  size: 878, 657
+  orig: 965, 723
+  offset: 48, 52
+  index: -1
+bx1
+  rotate: false
+  xy: 0, 3
+  size: 332, 98
+  orig: 334, 100
+  offset: 1, 1
+  index: -1
+bx10
+  rotate: false
+  xy: 1465, 19
+  size: 148, 136
+  orig: 148, 136
+  offset: 0, 0
+  index: -1
+bx11
+  rotate: true
+  xy: 1555, 288
+  size: 185, 192
+  orig: 185, 209
+  offset: 0, 11
+  index: -1
+bx2
+  rotate: false
+  xy: 1465, 296
+  size: 59, 56
+  orig: 61, 58
+  offset: 1, 1
+  index: -1
+bx3
+  rotate: true
+  xy: 334, 0
+  size: 101, 109
+  orig: 104, 111
+  offset: 1, 1
+  index: -1
+bx4
+  rotate: false
+  xy: 1147, 50
+  size: 265, 99
+  orig: 268, 101
+  offset: 2, 1
+  index: -1
+bx5
+  rotate: true
+  xy: 1648, 1109
+  size: 187, 99
+  orig: 189, 102
+  offset: 1, 1
+  index: -1
+bx6
+  rotate: true
+  xy: 1708, 866
+  size: 241, 43
+  orig: 243, 45
+  offset: 1, 1
+  index: -1
+bx7
+  rotate: true
+  xy: 445, 9
+  size: 92, 74
+  orig: 92, 74
+  offset: 0, 0
+  index: -1
+bx8
+  rotate: false
+  xy: 1465, 157
+  size: 245, 129
+  orig: 245, 129
+  offset: 0, 0
+  index: -1
+bx9
+  rotate: true
+  xy: 839, 245
+  size: 392, 115
+  orig: 395, 123
+  offset: 1, 7
+  index: -1
+particle/particle_000
+  rotate: false
+  xy: 880, 666
+  size: 309, 200
+  orig: 349, 244
+  offset: 19, 8
+  index: -1
+particle/particle_001
+  rotate: false
+  xy: 528, 231
+  size: 309, 201
+  orig: 349, 244
+  offset: 19, 8
+  index: -1
+particle/particle_002
+  rotate: true
+  xy: 1505, 787
+  size: 308, 201
+  orig: 349, 244
+  offset: 20, 9
+  index: -1
+particle/particle_003
+  rotate: false
+  xy: 839, 42
+  size: 306, 201
+  orig: 349, 244
+  offset: 21, 10
+  index: -1
+particle/particle_004
+  rotate: false
+  xy: 1156, 151
+  size: 307, 201
+  orig: 349, 244
+  offset: 20, 11
+  index: -1
+particle/particle_005
+  rotate: false
+  xy: 528, 29
+  size: 309, 200
+  orig: 349, 244
+  offset: 18, 13
+  index: -1
+particle/particle_006
+  rotate: false
+  xy: 880, 868
+  size: 311, 200
+  orig: 349, 244
+  offset: 17, 14
+  index: -1
+particle/particle_007
+  rotate: false
+  xy: 1334, 1097
+  size: 312, 199
+  orig: 349, 244
+  offset: 16, 16
+  index: -1
+particle/particle_008
+  rotate: true
+  xy: 956, 352
+  size: 312, 198
+  orig: 349, 244
+  offset: 16, 18
+  index: -1
+particle/particle_009
+  rotate: true
+  xy: 1156, 354
+  size: 310, 198
+  orig: 349, 244
+  offset: 17, 19
+  index: -1
+particle/particle_010
+  rotate: true
+  xy: 1356, 354
+  size: 310, 197
+  orig: 349, 244
+  offset: 17, 21
+  index: -1
+particle/particle_011
+  rotate: true
+  xy: 1555, 475
+  size: 310, 195
+  orig: 349, 244
+  offset: 17, 23
+  index: -1
+particle/particle_012
+  rotate: false
+  xy: 1191, 666
+  size: 308, 200
+  orig: 349, 244
+  offset: 18, 17
+  index: -1
+particle/particle_013
+  rotate: false
+  xy: 528, 434
+  size: 309, 203
+  orig: 349, 244
+  offset: 18, 10
+  index: -1
+particle/particle_014
+  rotate: false
+  xy: 1193, 870
+  size: 310, 198
+  orig: 349, 244
+  offset: 18, 9
+  index: -1
+xx3
+  rotate: false
+  xy: 956, 285
+  size: 65, 65
+  orig: 69, 69
+  offset: 2, 2
+  index: -1

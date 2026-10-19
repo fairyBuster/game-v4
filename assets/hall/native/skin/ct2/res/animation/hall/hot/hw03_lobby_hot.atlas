@@ -1,0 +1,125 @@
+
+hw03_lobby_hot.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fire/fire_00
+  rotate: false
+  xy: 222, 55
+  size: 53, 71
+  orig: 92, 92
+  offset: 20, 8
+  index: -1
+fire/fire_01
+  rotate: false
+  xy: 112, 54
+  size: 53, 72
+  orig: 92, 92
+  offset: 20, 8
+  index: -1
+fire/fire_02
+  rotate: false
+  xy: 167, 54
+  size: 53, 72
+  orig: 92, 92
+  offset: 20, 8
+  index: -1
+fire/fire_03
+  rotate: false
+  xy: 2, 53
+  size: 53, 73
+  orig: 92, 92
+  offset: 20, 8
+  index: -1
+fire/fire_04
+  rotate: false
+  xy: 57, 53
+  size: 53, 73
+  orig: 92, 92
+  offset: 20, 8
+  index: -1
+fire/fire_05
+  rotate: false
+  xy: 772, 60
+  size: 53, 66
+  orig: 92, 92
+  offset: 20, 8
+  index: -1
+fire/fire_06
+  rotate: false
+  xy: 607, 59
+  size: 53, 67
+  orig: 92, 92
+  offset: 20, 8
+  index: -1
+fire/fire_07
+  rotate: false
+  xy: 662, 59
+  size: 53, 67
+  orig: 92, 92
+  offset: 20, 8
+  index: -1
+fire/fire_08
+  rotate: false
+  xy: 717, 59
+  size: 53, 67
+  orig: 92, 92
+  offset: 20, 8
+  index: -1
+fire/fire_09
+  rotate: false
+  xy: 552, 58
+  size: 53, 68
+  orig: 92, 92
+  offset: 20, 8
+  index: -1
+fire/fire_10
+  rotate: false
+  xy: 497, 57
+  size: 53, 69
+  orig: 92, 92
+  offset: 20, 8
+  index: -1
+fire/fire_11
+  rotate: true
+  xy: 497, 2
+  size: 53, 69
+  orig: 92, 92
+  offset: 20, 8
+  index: -1
+fire/fire_12
+  rotate: false
+  xy: 332, 56
+  size: 53, 70
+  orig: 92, 92
+  offset: 20, 8
+  index: -1
+fire/fire_13
+  rotate: false
+  xy: 387, 56
+  size: 53, 70
+  orig: 92, 92
+  offset: 20, 8
+  index: -1
+fire/fire_14
+  rotate: false
+  xy: 442, 56
+  size: 53, 70
+  orig: 92, 92
+  offset: 20, 8
+  index: -1
+fire/fire_15
+  rotate: false
+  xy: 277, 55
+  size: 53, 71
+  orig: 92, 92
+  offset: 20, 8
+  index: -1
+hot
+  rotate: false
+  xy: 2, 20
+  size: 50, 31
+  orig: 50, 31
+  offset: 0, 0
+  index: -1

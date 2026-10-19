@@ -1,0 +1,51 @@
+{
+  "created_at": "2026-07-20T18:53:13.268976+00:00",
+  "kind": "background-music",
+  "master": "C:\\projects\\ai\\slots-oneshots\\gates-of-olympus\\assets\\music\\music-bonus.master.mp3",
+  "master_probe": {
+    "bit_rate": 192005,
+    "channel_layout": "stereo",
+    "channels": 2,
+    "codec": "mp3",
+    "duration_seconds": 60.024,
+    "sample_rate": 48000
+  },
+  "normalization": {
+    "measured": {
+      "input_i": "-13.28",
+      "input_lra": "2.80",
+      "input_thresh": "-23.42",
+      "input_tp": "-0.89",
+      "normalization_type": "dynamic",
+      "output_i": "-15.35",
+      "output_lra": "1.60",
+      "output_thresh": "-25.42",
+      "output_tp": "-2.61",
+      "target_offset": "-0.65"
+    },
+    "target_lra": 11,
+    "target_lufs": -16,
+    "target_true_peak_db": -1
+  },
+  "output_format": "auto",
+  "request": {
+    "force_instrumental": true,
+    "model_id": "music_v2",
+    "music_length_ms": 60000,
+    "prompt": "Epic intense ancient Greek mythology orchestral bonus music for a casino slot game free spins round. Triumphant and powerful: driving staccato strings, bold heroic brass fanfares, dramatic full choir swells, thunder crashes, pounding timpani and taiko, soaring victorious melody. High energy cinematic battle-of-the-gods intensity. Seamless loop with no intro or outro, consistent energy throughout, instrumental only."
+  },
+  "response": {
+    "content-type": "audio/mpeg",
+    "song-id": "TmBGEilJGrOcZwXjNTJv",
+    "x-trace-id": "4dc15dbb6e9d722c19d6632005ae11cb"
+  },
+  "web": "C:\\projects\\ai\\slots-oneshots\\gates-of-olympus\\assets\\music\\music-bonus.web.ogg",
+  "web_probe": {
+    "bit_rate": 155242,
+    "channel_layout": "stereo",
+    "channels": 2,
+    "codec": "opus",
+    "duration_seconds": 60.0305,
+    "sample_rate": 48000
+  }
+}

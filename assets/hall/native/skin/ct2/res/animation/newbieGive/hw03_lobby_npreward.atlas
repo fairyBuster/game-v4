@@ -1,0 +1,167 @@
+
+hw03_lobby_npreward.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Gold
+  rotate: false
+  xy: 2, 2
+  size: 158, 162
+  orig: 158, 162
+  offset: 0, 0
+  index: -1
+Gold2
+  rotate: true
+  xy: 894, 883
+  size: 131, 96
+  orig: 131, 96
+  offset: 0, 0
+  index: -1
+guang01
+  rotate: false
+  xy: 726, 291
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+xulie/diguang_00000
+  rotate: false
+  xy: 2, 835
+  size: 221, 179
+  orig: 234, 198
+  offset: 7, 8
+  index: -1
+xulie/diguang_00001
+  rotate: false
+  xy: 225, 835
+  size: 221, 179
+  orig: 234, 198
+  offset: 7, 8
+  index: -1
+xulie/diguang_00002
+  rotate: false
+  xy: 448, 835
+  size: 221, 179
+  orig: 234, 198
+  offset: 7, 8
+  index: -1
+xulie/diguang_00003
+  rotate: false
+  xy: 671, 835
+  size: 221, 179
+  orig: 234, 198
+  offset: 7, 8
+  index: -1
+xulie/diguang_00004
+  rotate: true
+  xy: 2, 612
+  size: 221, 179
+  orig: 234, 198
+  offset: 7, 8
+  index: -1
+xulie/diguang_00005
+  rotate: true
+  xy: 2, 389
+  size: 221, 179
+  orig: 234, 198
+  offset: 7, 8
+  index: -1
+xulie/diguang_00006
+  rotate: true
+  xy: 2, 166
+  size: 221, 179
+  orig: 234, 198
+  offset: 7, 8
+  index: -1
+xulie/diguang_00007
+  rotate: false
+  xy: 183, 654
+  size: 221, 179
+  orig: 234, 198
+  offset: 7, 8
+  index: -1
+xulie/diguang_00008
+  rotate: false
+  xy: 406, 654
+  size: 221, 179
+  orig: 234, 198
+  offset: 7, 8
+  index: -1
+xulie/diguang_00009
+  rotate: false
+  xy: 629, 654
+  size: 221, 179
+  orig: 234, 198
+  offset: 7, 8
+  index: -1
+xulie/diguang_00010
+  rotate: true
+  xy: 183, 431
+  size: 221, 179
+  orig: 234, 198
+  offset: 7, 8
+  index: -1
+xulie/diguang_00011
+  rotate: true
+  xy: 183, 208
+  size: 221, 179
+  orig: 234, 198
+  offset: 7, 8
+  index: -1
+xulie/diguang_00012
+  rotate: false
+  xy: 183, 27
+  size: 221, 179
+  orig: 234, 198
+  offset: 7, 8
+  index: -1
+xulie/diguang_00013
+  rotate: true
+  xy: 364, 431
+  size: 221, 179
+  orig: 234, 198
+  offset: 7, 8
+  index: -1
+xulie/diguang_00014
+  rotate: true
+  xy: 364, 208
+  size: 221, 179
+  orig: 234, 198
+  offset: 7, 8
+  index: -1
+xulie/diguang_00015
+  rotate: false
+  xy: 406, 27
+  size: 221, 179
+  orig: 234, 198
+  offset: 7, 8
+  index: -1
+xulie/diguang_00016
+  rotate: true
+  xy: 545, 431
+  size: 221, 179
+  orig: 234, 198
+  offset: 7, 8
+  index: -1
+xulie/diguang_00017
+  rotate: true
+  xy: 545, 208
+  size: 221, 179
+  orig: 234, 198
+  offset: 7, 8
+  index: -1
+xulie/diguang_00018
+  rotate: false
+  xy: 629, 27
+  size: 221, 179
+  orig: 234, 198
+  offset: 7, 8
+  index: -1
+xulie/diguang_00019
+  rotate: false
+  xy: 726, 473
+  size: 221, 179
+  orig: 234, 198
+  offset: 7, 8
+  index: -1

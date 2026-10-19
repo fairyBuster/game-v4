@@ -1,0 +1,41 @@
+
+lobby_sevenday.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ddh1
+  rotate: false
+  xy: 2, 108
+  size: 746, 104
+  orig: 746, 104
+  offset: 0, 0
+  index: -1
+ddh2
+  rotate: false
+  xy: 2, 2
+  size: 746, 104
+  orig: 746, 104
+  offset: 0, 0
+  index: -1
+xxd1
+  rotate: false
+  xy: 750, 61
+  size: 69, 70
+  orig: 71, 72
+  offset: 1, 1
+  index: -1
+xxd2
+  rotate: false
+  xy: 832, 143
+  size: 67, 69
+  orig: 69, 71
+  offset: 1, 1
+  index: -1
+xxd3
+  rotate: false
+  xy: 750, 133
+  size: 80, 79
+  orig: 82, 81
+  offset: 1, 1
+  index: -1

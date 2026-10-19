@@ -1,0 +1,40 @@
+{
+  "created_at": "2026-07-20T17:31:14.880162+00:00",
+  "kind": "sound-effect",
+  "master": "C:\\projects\\ai\\slots-oneshots\\gates-of-olympus\\assets\\sounds\\spin-start.master.mp3",
+  "master_probe": {
+    "bit_rate": 134040,
+    "channel_layout": "stereo",
+    "channels": 2,
+    "codec": "mp3",
+    "duration_seconds": 1.2,
+    "sample_rate": 44100
+  },
+  "normalization": {
+    "applied_gain_db": -1.0,
+    "source_max_volume_db": -0.0,
+    "target_peak_db": -1.0
+  },
+  "output_format": "mp3_44100_128",
+  "request": {
+    "duration_seconds": 1.2,
+    "loop": false,
+    "model_id": "eleven_text_to_sound_v2",
+    "prompt_influence": 0.3,
+    "text": "slot machine reels launching into a fast spin, rising mechanical whoosh with a soft click, tight and punchy, no voice, no music, epic Greek mythology, Mount Olympus divine thunder, orchestral fantasy casino style"
+  },
+  "response": {
+    "character-cost": "12",
+    "content-type": "audio/mpeg",
+    "x-trace-id": "58e9d373fa8d8923329e6fba85faa663"
+  },
+  "web": "C:\\projects\\ai\\slots-oneshots\\gates-of-olympus\\assets\\sounds\\spin-start.web.ogg",
+  "web_probe": {
+    "bit_rate": 91961,
+    "channel_layout": "stereo",
+    "channels": 2,
+    "codec": "opus",
+    "duration_seconds": 1.2065,
+    "sample_rate": 48000
+  }
+}

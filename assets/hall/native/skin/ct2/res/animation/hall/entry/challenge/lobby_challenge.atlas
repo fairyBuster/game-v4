@@ -1,0 +1,111 @@
+
+lobby_challenge.png
+size: 527,205
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+a1
+  rotate: false
+  xy: 423, 35
+  size: 60, 62
+  orig: 60, 62
+  offset: 0, 0
+  index: -1
+a2
+  rotate: false
+  xy: 345, 2
+  size: 30, 15
+  orig: 30, 15
+  offset: 0, 0
+  index: -1
+a3
+  rotate: true
+  xy: 446, 5
+  size: 28, 21
+  orig: 28, 21
+  offset: 0, 0
+  index: -1
+a4
+  rotate: true
+  xy: 423, 4
+  size: 29, 21
+  orig: 30, 22
+  offset: 1, 0
+  index: -1
+bom1/01_00000
+  rotate: false
+  xy: 469, 16
+  size: 17, 17
+  orig: 160, 160
+  offset: 71, 71
+  index: -1
+bom1/01_00001
+  rotate: false
+  xy: 485, 57
+  size: 40, 40
+  orig: 160, 160
+  offset: 60, 61
+  index: -1
+bom1/01_00002
+  rotate: false
+  xy: 277, 98
+  size: 104, 105
+  orig: 160, 160
+  offset: 27, 27
+  index: -1
+bom1/01_00003
+  rotate: true
+  xy: 170, 96
+  size: 107, 105
+  orig: 160, 160
+  offset: 26, 28
+  index: -1
+bom1/01_00004
+  rotate: true
+  xy: 383, 99
+  size: 104, 103
+  orig: 160, 160
+  offset: 27, 28
+  index: -1
+bom1/01_00005
+  rotate: true
+  xy: 170, 4
+  size: 90, 95
+  orig: 160, 160
+  offset: 40, 31
+  index: -1
+bom1/01_00006
+  rotate: true
+  xy: 267, 15
+  size: 79, 76
+  orig: 160, 160
+  offset: 40, 45
+  index: -1
+bom1/01_00007
+  rotate: true
+  xy: 345, 19
+  size: 77, 76
+  orig: 160, 160
+  offset: 40, 45
+  index: -1
+bom1/01_00009
+  rotate: false
+  xy: 267, 3
+  size: 69, 10
+  orig: 160, 160
+  offset: 47, 94
+  index: -1
+bom1/01_00008
+  rotate: false
+  xy: 267, 3
+  size: 69, 10
+  orig: 160, 160
+  offset: 47, 94
+  index: -1
+ic8
+  rotate: true
+  xy: 2, 9
+  size: 194, 166
+  orig: 198, 169
+  offset: 2, 1
+  index: -1

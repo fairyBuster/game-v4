@@ -1,0 +1,146 @@
+
+lobby_LiveEntry.png
+size: 845,316
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+coin_l
+  rotate: false
+  xy: 806, 278
+  size: 37, 36
+  orig: 37, 37
+  offset: 0, 0
+  index: -1
+coin_l_02
+  rotate: false
+  xy: 806, 162
+  size: 25, 25
+  orig: 28, 28
+  offset: 2, 1
+  index: -1
+coin_r
+  rotate: true
+  xy: 806, 221
+  size: 55, 32
+  orig: 55, 32
+  offset: 0, 0
+  index: -1
+coin_r_02
+  rotate: false
+  xy: 806, 189
+  size: 31, 30
+  orig: 34, 33
+  offset: 1, 2
+  index: -1
+particle/particle_000
+  rotate: true
+  xy: 301, 160
+  size: 154, 99
+  orig: 175, 122
+  offset: 10, 5
+  index: -1
+particle/particle_001
+  rotate: true
+  xy: 305, 4
+  size: 154, 99
+  orig: 175, 122
+  offset: 10, 5
+  index: -1
+particle/particle_002
+  rotate: true
+  xy: 602, 161
+  size: 153, 100
+  orig: 175, 122
+  offset: 11, 5
+  index: -1
+particle/particle_003
+  rotate: true
+  xy: 609, 6
+  size: 153, 100
+  orig: 175, 122
+  offset: 11, 5
+  index: -1
+particle/particle_004
+  rotate: true
+  xy: 704, 161
+  size: 153, 100
+  orig: 175, 122
+  offset: 10, 6
+  index: -1
+particle/particle_005
+  rotate: true
+  xy: 402, 160
+  size: 154, 99
+  orig: 175, 122
+  offset: 10, 7
+  index: -1
+particle/particle_006
+  rotate: true
+  xy: 2, 159
+  size: 155, 99
+  orig: 175, 122
+  offset: 9, 8
+  index: -1
+particle/particle_007
+  rotate: true
+  xy: 2, 2
+  size: 155, 99
+  orig: 175, 122
+  offset: 9, 8
+  index: -1
+particle/particle_008
+  rotate: true
+  xy: 103, 159
+  size: 155, 98
+  orig: 175, 122
+  offset: 9, 9
+  index: -1
+particle/particle_009
+  rotate: true
+  xy: 103, 2
+  size: 155, 98
+  orig: 175, 122
+  offset: 9, 10
+  index: -1
+particle/particle_010
+  rotate: true
+  xy: 503, 160
+  size: 154, 97
+  orig: 175, 122
+  offset: 9, 11
+  index: -1
+particle/particle_011
+  rotate: true
+  xy: 203, 159
+  size: 155, 96
+  orig: 175, 122
+  offset: 9, 12
+  index: -1
+particle/particle_012
+  rotate: true
+  xy: 203, 3
+  size: 154, 100
+  orig: 175, 122
+  offset: 9, 8
+  index: -1
+particle/particle_013
+  rotate: true
+  xy: 506, 5
+  size: 153, 101
+  orig: 175, 122
+  offset: 10, 6
+  index: -1
+particle/particle_014
+  rotate: true
+  xy: 406, 4
+  size: 154, 98
+  orig: 175, 122
+  offset: 10, 5
+  index: -1
+tv
+  rotate: true
+  xy: 711, 43
+  size: 116, 121
+  orig: 117, 121
+  offset: 1, 0
+  index: -1

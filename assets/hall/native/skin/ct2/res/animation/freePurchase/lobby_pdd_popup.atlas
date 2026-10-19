@@ -1,0 +1,188 @@
+
+lobby_pdd_popup.png
+size: 2033,1262
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cd_g02
+  rotate: false
+  xy: 964, 803
+  size: 478, 459
+  orig: 512, 512
+  offset: 9, 48
+  index: -1
+countdown_fx01/countdown_fx01_04
+  rotate: false
+  xy: 657, 36
+  size: 69, 48
+  orig: 400, 246
+  offset: 166, 98
+  index: -1
+countdown_fx01/countdown_fx01_05
+  rotate: false
+  xy: 1884, 809
+  size: 143, 133
+  orig: 400, 246
+  offset: 129, 56
+  index: -1
+countdown_fx01/countdown_fx01_06
+  rotate: false
+  xy: 1750, 325
+  size: 277, 187
+  orig: 400, 246
+  offset: 62, 32
+  index: -1
+countdown_fx01/countdown_fx01_07
+  rotate: false
+  xy: 1432, 239
+  size: 284, 209
+  orig: 400, 246
+  offset: 58, 23
+  index: -1
+countdown_fx01/countdown_fx01_08
+  rotate: false
+  xy: 1432, 567
+  size: 334, 226
+  orig: 400, 246
+  offset: 16, 12
+  index: -1
+countdown_fx01/countdown_fx01_09
+  rotate: true
+  xy: 1203, 460
+  size: 341, 227
+  orig: 400, 246
+  offset: 13, 11
+  index: -1
+countdown_fx01/countdown_fx01_10
+  rotate: false
+  xy: 859, 574
+  size: 342, 227
+  orig: 400, 246
+  offset: 14, 11
+  index: -1
+countdown_fx01/countdown_fx01_11
+  rotate: true
+  xy: 657, 86
+  size: 343, 224
+  orig: 400, 246
+  offset: 16, 12
+  index: -1
+countdown_fx01/countdown_fx01_12
+  rotate: true
+  xy: 883, 107
+  size: 344, 159
+  orig: 400, 246
+  offset: 15, 45
+  index: -1
+countdown_fx01/countdown_fx01_13
+  rotate: true
+  xy: 1884, 944
+  size: 318, 149
+  orig: 400, 246
+  offset: 41, 50
+  index: -1
+countdown_fx01/countdown_fx01_14
+  rotate: false
+  xy: 1432, 450
+  size: 316, 115
+  orig: 400, 246
+  offset: 42, 62
+  index: -1
+countdown_fx01/countdown_fx01_15
+  rotate: false
+  xy: 859, 453
+  size: 316, 119
+  orig: 400, 246
+  offset: 42, 61
+  index: -1
+countdown_fx01/countdown_fx01_16
+  rotate: true
+  xy: 1044, 137
+  size: 314, 120
+  orig: 400, 246
+  offset: 43, 62
+  index: -1
+countdown_fx01/countdown_fx01_17
+  rotate: true
+  xy: 1166, 153
+  size: 298, 130
+  orig: 400, 246
+  offset: 53, 63
+  index: -1
+countdown_fx01/countdown_fx01_18
+  rotate: false
+  xy: 1432, 107
+  size: 298, 130
+  orig: 400, 246
+  offset: 53, 63
+  index: -1
+countdown_fx01/countdown_fx01_19
+  rotate: true
+  xy: 1298, 162
+  size: 296, 132
+  orig: 400, 246
+  offset: 53, 64
+  index: -1
+countdown_fx01/countdown_fx01_20
+  rotate: false
+  xy: 1732, 193
+  size: 291, 130
+  orig: 400, 246
+  offset: 53, 66
+  index: -1
+countdown_fx01/countdown_fx01_21
+  rotate: false
+  xy: 1732, 66
+  size: 292, 125
+  orig: 400, 246
+  offset: 52, 70
+  index: -1
+countdown_fx01/countdown_fx01_22
+  rotate: false
+  xy: 1044, 11
+  size: 285, 124
+  orig: 400, 246
+  offset: 59, 71
+  index: -1
+db1
+  rotate: false
+  xy: 0, 0
+  size: 655, 429
+  orig: 673, 432
+  offset: 17, 2
+  index: -1
+db2
+  rotate: false
+  xy: 0, 431
+  size: 857, 409
+  orig: 892, 417
+  offset: 31, 4
+  index: -1
+db3
+  rotate: false
+  xy: 1444, 928
+  size: 438, 334
+  orig: 463, 345
+  offset: 10, 4
+  index: -1
+dfg
+  rotate: false
+  xy: 1444, 795
+  size: 390, 131
+  orig: 398, 139
+  offset: 4, 4
+  index: -1
+pz2
+  rotate: false
+  xy: 1768, 514
+  size: 265, 279
+  orig: 268, 282
+  offset: 1, 1
+  index: -1
+zt5a
+  rotate: false
+  xy: 0, 842
+  size: 962, 420
+  orig: 968, 427
+  offset: 5, 4
+  index: -1

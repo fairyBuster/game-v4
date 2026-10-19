@@ -1,0 +1,62 @@
+
+lobby_RedPacket.png
+size: 352,206
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fx00
+  rotate: true
+  xy: 2, 9
+  size: 195, 164
+  orig: 195, 174
+  offset: 0, 6
+  index: -1
+hb1
+  rotate: true
+  xy: 168, 103
+  size: 101, 116
+  orig: 101, 117
+  offset: 0, 1
+  index: -1
+hb2
+  rotate: true
+  xy: 168, 9
+  size: 92, 116
+  orig: 92, 116
+  offset: 0, 0
+  index: -1
+hb3
+  rotate: false
+  xy: 286, 118
+  size: 64, 86
+  orig: 64, 86
+  offset: 0, 0
+  index: -1
+lx1
+  rotate: false
+  xy: 286, 36
+  size: 44, 80
+  orig: 53, 100
+  offset: 0, 0
+  index: -1
+xx1
+  rotate: false
+  xy: 320, 9
+  size: 25, 25
+  orig: 26, 26
+  offset: 0, 1
+  index: -1
+xx2
+  rotate: false
+  xy: 320, 9
+  size: 25, 25
+  orig: 26, 26
+  offset: 0, 1
+  index: -1
+xx3
+  rotate: false
+  xy: 286, 2
+  size: 32, 32
+  orig: 34, 34
+  offset: 1, 1
+  index: -1

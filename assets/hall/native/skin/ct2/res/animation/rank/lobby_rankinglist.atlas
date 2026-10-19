@@ -1,0 +1,139 @@
+
+lobby_rankinglist.png
+size: 995,970
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fx1
+  rotate: false
+  xy: 598, 712
+  size: 258, 256
+  orig: 279, 306
+  offset: 19, 41
+  index: -1
+fx2
+  rotate: false
+  xy: 2, 609
+  size: 284, 359
+  orig: 298, 368
+  offset: 10, 4
+  index: -1
+fx3
+  rotate: false
+  xy: 2, 335
+  size: 272, 272
+  orig: 280, 282
+  offset: 4, 5
+  index: -1
+fx4
+  rotate: false
+  xy: 288, 660
+  size: 308, 308
+  orig: 353, 352
+  offset: 26, 26
+  index: -1
+xxfx/xxfx_00
+  rotate: false
+  xy: 2, 161
+  size: 212, 172
+  orig: 239, 185
+  offset: 15, 7
+  index: -1
+xxfx/xxfx_02
+  rotate: false
+  xy: 429, 157
+  size: 187, 168
+  orig: 239, 185
+  offset: 40, 8
+  index: -1
+xxfx/xxfx_04
+  rotate: true
+  xy: 813, 517
+  size: 193, 170
+  orig: 239, 185
+  offset: 34, 10
+  index: -1
+xxfx/xxfx_06
+  rotate: false
+  xy: 618, 373
+  size: 192, 172
+  orig: 239, 185
+  offset: 33, 10
+  index: -1
+xxfx/xxfx_08
+  rotate: false
+  xy: 618, 198
+  size: 192, 173
+  orig: 239, 185
+  offset: 32, 12
+  index: -1
+xxfx/xxfx_10
+  rotate: true
+  xy: 812, 323
+  size: 192, 170
+  orig: 239, 185
+  offset: 32, 14
+  index: -1
+xxfx/xxfx_12
+  rotate: false
+  xy: 636, 48
+  size: 207, 148
+  orig: 239, 185
+  offset: 16, 10
+  index: -1
+xxfx/xxfx_14
+  rotate: false
+  xy: 213, 4
+  size: 209, 154
+  orig: 239, 185
+  offset: 17, 12
+  index: -1
+xxfx/xxfx_16
+  rotate: false
+  xy: 424, 2
+  size: 210, 153
+  orig: 239, 185
+  offset: 17, 13
+  index: -1
+xxfx/xxfx_18
+  rotate: false
+  xy: 2, 3
+  size: 209, 156
+  orig: 239, 185
+  offset: 18, 14
+  index: -1
+xxfx/xxfx_20
+  rotate: false
+  xy: 598, 547
+  size: 213, 163
+  orig: 239, 185
+  offset: 14, 7
+  index: -1
+xxfx/xxfx_22
+  rotate: false
+  xy: 288, 493
+  size: 213, 165
+  orig: 239, 185
+  offset: 14, 7
+  index: -1
+xxfx/xxfx_24
+  rotate: false
+  xy: 276, 327
+  size: 213, 164
+  orig: 239, 185
+  offset: 15, 8
+  index: -1
+xxfx/xxfx_26
+  rotate: false
+  xy: 216, 160
+  size: 211, 165
+  orig: 239, 185
+  offset: 17, 9
+  index: -1
+xxfx/xxfx_28
+  rotate: true
+  xy: 845, 111
+  size: 210, 148
+  orig: 239, 185
+  offset: 18, 10
+  index: -1

@@ -1,0 +1,62 @@
+
+lobby_Rebat.png
+size: 428,188
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ct1
+  rotate: false
+  xy: 331, 41
+  size: 47, 55
+  orig: 47, 55
+  offset: 0, 0
+  index: -1
+ct2
+  rotate: true
+  xy: 331, 2
+  size: 37, 54
+  orig: 37, 54
+  offset: 0, 0
+  index: -1
+ct3
+  rotate: true
+  xy: 387, 2
+  size: 45, 35
+  orig: 46, 36
+  offset: 1, 1
+  index: -1
+ct4
+  rotate: false
+  xy: 331, 98
+  size: 92, 88
+  orig: 92, 88
+  offset: 0, 0
+  index: -1
+ct5
+  rotate: false
+  xy: 380, 49
+  size: 46, 47
+  orig: 46, 47
+  offset: 0, 0
+  index: -1
+ct6
+  rotate: true
+  xy: 187, 8
+  size: 21, 34
+  orig: 21, 34
+  offset: 0, 0
+  index: -1
+pt1
+  rotate: true
+  xy: 187, 31
+  size: 155, 142
+  orig: 159, 144
+  offset: 2, 1
+  index: -1
+txg
+  rotate: false
+  xy: 2, 2
+  size: 183, 184
+  orig: 189, 193
+  offset: 3, 5
+  index: -1

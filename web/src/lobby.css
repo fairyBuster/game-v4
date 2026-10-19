@@ -1,0 +1,281 @@
+/* DY01 lobby skin, rebuilt in React. Everything is laid out inside a fixed
+   1280x720 stage (the clone's landscape canvas); App.jsx scales that stage. */
+:root {
+  --gold: #e8b64c;
+  --gold-dark: #9c6f1f;
+  --wine: #6e1a2c;
+  --wine-light: #9d2a41;
+  --ink: #170a10;
+  --panel: rgba(24, 9, 15, .82);
+  --line: rgba(232, 182, 76, .45);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body, #root { height: 100%; }
+
+body {
+  background: #0a0609;
+  color: #fff;
+  font: 14px/1.35 "Segoe UI", Tahoma, system-ui, sans-serif;
+  overflow: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+button { font: inherit; color: inherit; background: none; border: 0; cursor: pointer; }
+img { display: block; }
+code { font-family: Consolas, monospace; color: var(--gold); }
+
+.stage-wrap { position: fixed; inset: 0; overflow: hidden; background: #0a0609; }
+/* scoped to our own wrapper: the ported Casino-App games also use a `.stage` class inside
+   them (their play area), and an unscoped `.stage` rule tore it out of their grid. */
+.stage-wrap > .stage {
+  position: absolute; left: 50%; top: 50%;
+  width: 1280px; height: 720px;
+  transform-origin: center center;
+  overflow: hidden; background: #140a12;
+}
+
+/* ---------- background ---------- */
+.lobby { position: absolute; inset: 0; }
+.lobby-bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.lobby-vignette {
+  position: absolute; inset: 0;
+  background: radial-gradient(120% 90% at 50% 0%, rgba(10, 4, 8, .25) 30%, rgba(10, 4, 8, .78) 100%);
+}
+.lobby-decor { position: absolute; right: 26px; top: 66px; width: 190px; opacity: .85; pointer-events: none; }
+
+/* ---------- top bar ---------- */
+.topbar {
+  position: absolute; left: 0; right: 0; top: 0; height: 78px;
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 0 18px;
+  background: linear-gradient(180deg, rgba(20, 6, 12, .93) 40%, rgba(20, 6, 12, .45) 78%, rgba(20, 6, 12, 0));
+  border-bottom: 2px solid var(--line);
+}
+.who { display: flex; align-items: center; gap: 12px; }
+.avatar {
+  width: 54px; height: 54px; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  background: rgba(12, 5, 9, .85); border: 2px solid var(--gold);
+}
+.avatar img { width: 74%; height: 74%; object-fit: contain; }
+.who-text { display: flex; flex-direction: column; gap: 3px; }
+.who-text b { font-size: 15px; letter-spacing: .2px; }
+.who-text span { font-size: 11.5px; color: #c9b7ae; display: flex; align-items: center; gap: 8px; }
+.vip-tag {
+  font-style: normal; font-size: 10.5px; font-weight: 700; color: #2a1408;
+  background: linear-gradient(180deg, #f7d27a, #c58a1e);
+  border-radius: 20px; padding: 1px 8px;
+}
+
+.wallet { display: flex; align-items: center; gap: 10px; }
+.coin-pill {
+  display: flex; align-items: center; gap: 8px;
+  height: 38px; padding: 0 16px 0 10px;
+  background: var(--panel); border: 1.5px solid var(--line); border-radius: 20px;
+}
+.coin-pill b { font-size: 15px; font-weight: 700; letter-spacing: .3px; }
+
+.btn {
+  display: inline-flex; align-items: center; justify-content: center;
+  height: 38px; padding: 0 20px; border-radius: 20px;
+  font-weight: 700; font-size: 13.5px; text-decoration: none;
+  border: 1.5px solid rgba(255, 255, 255, .25);
+}
+.btn.gold { color: #2b1607; background: linear-gradient(180deg, #f8d47f, #d69b26); border-color: #f3d9a1; }
+.btn.wine { color: #ffe9c9; background: linear-gradient(180deg, var(--wine-light), var(--wine)); }
+
+.round {
+  width: 38px; height: 38px; border-radius: 50%;
+  display: inline-flex; align-items: center; justify-content: center;
+  background: var(--panel); border: 1.5px solid var(--line); color: #f3dcae;
+}
+.round.service { color: #ffe0a8; border-color: #f3c96a; }
+
+/* ---------- left entries ---------- */
+.entries {
+  position: absolute; left: 14px; top: 92px; bottom: 96px; width: 150px;
+  display: flex; flex-direction: column; gap: 6px;
+  overflow-y: auto; scrollbar-width: none; padding-right: 2px;
+}
+.entries::-webkit-scrollbar { display: none; }
+.entry {
+  display: flex; align-items: center; gap: 8px;
+  padding: 3px 8px; border-radius: 12px;
+  background: rgba(22, 8, 14, .72); border: 1px solid rgba(232, 182, 76, .28);
+  text-align: left;
+}
+.entry:hover { border-color: var(--gold); background: rgba(46, 16, 26, .88); }
+.entry span { font-size: 11.5px; line-height: 1.15; color: #f0e2cf; }
+
+/* mini medallion behind every rail glyph — replaces the clipped particle sprites */
+.entry-ico {
+  width: 40px; height: 40px; flex: none; border-radius: 50%;
+  display: grid; place-items: center;
+  background:
+    radial-gradient(120% 90% at 30% 18%, rgba(255, 224, 150, .20), rgba(255, 224, 150, 0) 58%),
+    radial-gradient(120% 110% at 50% 118%, rgba(157, 42, 65, .5), rgba(157, 42, 65, 0) 62%),
+    linear-gradient(180deg, #381826, #1a0a11);
+  border: 1px solid rgba(232, 182, 76, .48);
+  box-shadow: inset 0 1px 0 rgba(255, 226, 160, .18), 0 3px 8px rgba(0, 0, 0, .45);
+  transition: color .18s, border-color .18s, box-shadow .18s, transform .18s;
+}
+.entry-ico svg { width: 22px; height: 22px; }
+.entry .entry-ico { color: #eec169; }
+.entry:hover .entry-ico {
+  color: #ffdf9b; border-color: var(--gold); transform: translateY(-1px);
+  box-shadow: inset 0 1px 0 rgba(255, 226, 160, .25), 0 0 14px -2px rgba(247, 201, 72, .6);
+}
+.entry-hero { display: flex; justify-content: center; margin: 2px 0 10px; }
+.entry-hero .entry-ico { width: 58px; height: 58px; color: #eec169; }
+.entry-hero .entry-ico svg { width: 30px; height: 30px; }
+
+/* ---------- promo banner ---------- */
+.banner {
+  position: absolute; left: 178px; right: 18px; top: 92px; height: 238px;
+  border-radius: 16px; overflow: hidden;
+  border: 2px solid var(--line); background: #1a0a12;
+}
+.slide { position: absolute; inset: 0; opacity: 0; transition: opacity .55s ease; }
+.slide.on { opacity: 1; }
+.slide-bg { width: 100%; height: 100%; object-fit: cover; }
+.slide-title {
+  position: absolute; left: 34px; bottom: 30px; max-width: 44%; max-height: 58%;
+  object-fit: contain; filter: drop-shadow(0 3px 6px rgba(0, 0, 0, .6));
+}
+.dots { position: absolute; right: 14px; bottom: 12px; display: flex; gap: 6px; }
+.dots button { width: 22px; height: 4px; border-radius: 3px; background: rgba(255, 255, 255, .35); }
+.dots button.on { background: var(--gold); }
+
+/* ---------- game grid ---------- */
+.games { position: absolute; left: 178px; right: 18px; top: 344px; bottom: 88px; }
+.games-head { display: flex; align-items: center; gap: 14px; height: 34px; }
+.tabs { display: flex; gap: 8px; }
+.tabs button {
+  height: 30px; padding: 0 16px; border-radius: 16px; font-size: 12.5px; font-weight: 600;
+  color: #e4d3c0; background: rgba(22, 8, 14, .74); border: 1px solid rgba(232, 182, 76, .3);
+}
+.tabs button.on { color: #2b1607; background: linear-gradient(180deg, #f8d47f, #d69b26); border-color: #f3d9a1; }
+.tabs button em {
+  font-style: normal; font-size: 10px; font-weight: 700; margin-left: 6px;
+  color: #c9a869; background: rgba(0, 0, 0, .35); border-radius: 8px; padding: 1px 6px;
+}
+.tabs button.on em { color: #6b4a10; background: rgba(255, 255, 255, .45); }
+
+.ticker { flex: 1; display: flex; align-items: center; gap: 10px; overflow: hidden; min-width: 0; }
+.ticker em { font-style: normal; font-size: 11px; color: var(--gold); white-space: nowrap; }
+.ticker-track { display: flex; gap: 22px; white-space: nowrap; animation: marquee 34s linear infinite; }
+.ticker-track span { font-size: 11.5px; color: #d9c8bb; display: inline-flex; gap: 6px; }
+.ticker-track i { font-style: normal; color: #86e08a; }
+@keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+
+.grid-wrap { position: relative; height: calc(100% - 40px); }
+.grid {
+  display: grid; grid-auto-flow: column; grid-template-rows: repeat(2, 1fr);
+  gap: 10px; height: 100%; padding: 6px 4px 12px;
+  overflow-x: auto; overflow-y: hidden; scrollbar-width: thin;
+}
+.grid::-webkit-scrollbar { height: 7px; }
+.grid::-webkit-scrollbar-track { background: rgba(255, 255, 255, .07); border-radius: 4px; }
+.grid::-webkit-scrollbar-thumb { background: linear-gradient(90deg, #d8a63e, #9c6f1f); border-radius: 4px; }
+
+/* shelf card: full-bleed art, scrim + name at the bottom, play disc on hover */
+.card {
+  position: relative; width: 158px;
+  border-radius: 12px; overflow: hidden; text-decoration: none; color: #fff;
+  background: #1c0d14; border: 1.5px solid rgba(232, 182, 76, .32);
+  box-shadow: 0 5px 12px -6px rgba(0, 0, 0, .75);
+  transition: transform .16s ease, border-color .16s ease, box-shadow .16s ease;
+}
+.card:hover {
+  border-color: var(--gold); transform: translateY(-2px);
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0, .9), 0 0 16px -5px rgba(232, 182, 76, .55);
+}
+.card img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; transition: transform .28s ease; }
+.card:hover img { transform: scale(1.06); }
+.card::after {
+  content: ''; position: absolute; left: 0; right: 0; bottom: 0; height: 48%;
+  background: linear-gradient(180deg, rgba(10, 4, 8, 0), rgba(10, 4, 8, .9));
+}
+.card-name {
+  position: absolute; left: 0; right: 0; bottom: 0; z-index: 1;
+  font-size: 11px; line-height: 1.25; padding: 4px 9px 7px;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, .9);
+}
+/* scoped to our game cards: Casino-App's components use `.badge` for their own pills
+   (DEMO/REAL/Trending) and an absolutely positioned badge landed on top of their panels. */
+.card .badge {
+  position: absolute; top: 6px; left: 6px; z-index: 2; font-style: normal;
+  font-size: 9.5px; font-weight: 700; color: #2b1607;
+  background: linear-gradient(180deg, #ffd88a, #e0a22c);
+  padding: 2px 7px; border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, .5);
+}
+/* NB: jangan pakai `.badge.slot` — `.slot` itu root layar DY01 Slots (`slot.css`), jadi badge-nya
+   ikut kena `position:absolute; inset:0` dan melar nutupin seluruh kartu. */
+.badge.vend { color: #ffe9c9; background: linear-gradient(180deg, var(--wine-light), var(--wine)); border: 1px solid rgba(255, 255, 255, .3); }
+.badge.soon { color: #d9d3cc; background: rgba(30, 24, 28, .85); border: 1px solid rgba(255, 255, 255, .22); }
+.badge.mini { color: #04212f; background: linear-gradient(180deg, #9fdcff, #35a0e0); }
+/* games with no build behind them yet carry a full-width ribbon, not just a corner tag */
+.card.soon::after {
+  content: 'SEGERA HADIR';
+  position: absolute; left: 0; right: 0; bottom: 22px; z-index: 2;
+  text-align: center; font-size: 9.5px; font-weight: 700; letter-spacing: 1.2px;
+  color: #ffe0c9; background: rgba(96, 22, 34, .93);
+  padding: 3px 0; border-top: 1px solid rgba(232, 182, 76, .45); border-bottom: 1px solid rgba(232, 182, 76, .45);
+}
+.card.soon img { filter: grayscale(.65) brightness(.72); }
+.card.soon:hover img { filter: grayscale(.2) brightness(.95); }
+.card-play {
+  position: absolute; left: 50%; top: 50%; z-index: 2;
+  width: 40px; height: 40px; border-radius: 50%;
+  display: grid; place-items: center; color: #2b1607;
+  background: linear-gradient(180deg, #f8d47f, #d69b26);
+  border: 1.5px solid #f3d9a1; box-shadow: 0 5px 14px rgba(0, 0, 0, .55);
+  opacity: 0; transform: translate(-50%, -50%) scale(.8); pointer-events: none;
+  transition: opacity .18s ease, transform .18s ease;
+}
+.card:hover .card-play { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+.card.soon .card-play { display: none; }
+
+/* shelf arrows: one screen per nudge, they fade out at either end */
+.grid-nav {
+  position: absolute; top: 50%; z-index: 3;
+  width: 36px; height: 36px; border-radius: 50%;
+  display: grid; place-items: center;
+  font-size: 21px; line-height: 1; padding-bottom: 2px;
+  color: #ffe9c9; background: rgba(22, 9, 15, .9); border: 1.5px solid var(--line);
+  box-shadow: 0 5px 14px rgba(0, 0, 0, .6);
+  transform: translateY(-50%);
+  transition: opacity .2s, border-color .15s, color .15s;
+}
+.grid-nav:hover { border-color: var(--gold); color: #ffdf9b; }
+.grid-nav:disabled { opacity: 0; pointer-events: none; }
+.grid-nav.prev { left: -2px; }
+.grid-nav.next { right: -2px; }
+
+/* ---------- bottom nav ---------- */
+.bottomnav {
+  position: absolute; left: 0; right: 0; bottom: 0; height: 80px;
+  display: flex; align-items: center; justify-content: center; gap: 120px;
+}
+.nav-bg { position: absolute; left: 0; right: 0; bottom: 0; width: 100%; height: 100%; object-fit: fill; }
+.bottomnav button {
+  position: relative; display: flex; flex-direction: column; align-items: center; gap: 3px;
+  font-size: 11.5px; color: rgba(255, 255, 255, .68); width: 96px;
+}
+.bottomnav button.on { color: var(--gold); }
+.bottomnav button svg { filter: drop-shadow(0 1px 2px rgba(0, 0, 0, .7)); }
+
+/* ---------- game placeholder page ---------- */
+.gamepage { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; }
+.gamepage-card {
+  position: relative; width: 520px; padding: 26px; border-radius: 18px; text-align: center;
+  background: var(--panel); border: 2px solid var(--line);
+}
+.gamepage-thumb { width: 150px; height: 150px; object-fit: contain; margin: 0 auto 12px; }
+.gamepage-card h1 { font-size: 22px; margin-bottom: 10px; }
+.gamepage-card p { font-size: 13px; color: #d7c7bd; margin-bottom: 16px; }
+.gamepage-meta { display: flex; justify-content: center; gap: 18px; font-size: 12px; color: #b9a79c; margin-bottom: 18px; }

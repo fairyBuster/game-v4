@@ -1,0 +1,48 @@
+
+hw03_lobby_iconshop.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+g1
+  rotate: false
+  xy: 2, 74
+  size: 178, 157
+  orig: 178, 157
+  offset: 0, 0
+  index: -1
+g2
+  rotate: false
+  xy: 2, 233
+  size: 273, 253
+  orig: 273, 253
+  offset: 0, 0
+  index: -1
+top_up1
+  rotate: false
+  xy: 277, 373
+  size: 136, 113
+  orig: 136, 113
+  offset: 0, 0
+  index: -1
+top_up2
+  rotate: true
+  xy: 182, 107
+  size: 124, 50
+  orig: 124, 50
+  offset: 0, 0
+  index: -1
+top_up3
+  rotate: false
+  xy: 2, 2
+  size: 152, 70
+  orig: 152, 70
+  offset: 0, 0
+  index: -1
+xing
+  rotate: false
+  xy: 277, 330
+  size: 41, 41
+  orig: 41, 41
+  offset: 0, 0
+  index: -1

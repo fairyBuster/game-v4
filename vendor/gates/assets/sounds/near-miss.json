@@ -1,0 +1,40 @@
+{
+  "created_at": "2026-07-20T17:31:33.867690+00:00",
+  "kind": "sound-effect",
+  "master": "C:\\projects\\ai\\slots-oneshots\\gates-of-olympus\\assets\\sounds\\near-miss.master.mp3",
+  "master_probe": {
+    "bit_rate": 133186,
+    "channel_layout": "stereo",
+    "channels": 2,
+    "codec": "mp3",
+    "duration_seconds": 1.76,
+    "sample_rate": 44100
+  },
+  "normalization": {
+    "applied_gain_db": 13.9,
+    "source_max_volume_db": -14.9,
+    "target_peak_db": -1.0
+  },
+  "output_format": "mp3_44100_128",
+  "request": {
+    "duration_seconds": 1.8,
+    "loop": false,
+    "model_id": "eleven_text_to_sound_v2",
+    "prompt_influence": 0.3,
+    "text": "tense rising heartbeat and shimmer that deflates with a soft descending sigh, suspenseful, no voice, epic Greek mythology, Mount Olympus divine thunder, orchestral fantasy casino style"
+  },
+  "response": {
+    "character-cost": "18",
+    "content-type": "audio/mpeg",
+    "x-trace-id": "67b5aaad81604c13805306df3a3a31e9"
+  },
+  "web": "C:\\projects\\ai\\slots-oneshots\\gates-of-olympus\\assets\\sounds\\near-miss.web.ogg",
+  "web_probe": {
+    "bit_rate": 114056,
+    "channel_layout": "stereo",
+    "channels": 2,
+    "codec": "opus",
+    "duration_seconds": 1.7665,
+    "sample_rate": 48000
+  }
+}

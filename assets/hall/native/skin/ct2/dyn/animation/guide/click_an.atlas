@@ -1,0 +1,34 @@
+
+click_an.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+h03gn
+  rotate: false
+  xy: 210, 4
+  size: 207, 204
+  orig: 207, 204
+  offset: 0, 0
+  index: -1
+h03gn2
+  rotate: false
+  xy: 419, 9
+  size: 76, 76
+  orig: 76, 76
+  offset: 0, 0
+  index: -1
+h03gn3
+  rotate: false
+  xy: 2, 2
+  size: 206, 206
+  orig: 206, 206
+  offset: 0, 0
+  index: -1
+hd
+  rotate: false
+  xy: 419, 87
+  size: 106, 121
+  orig: 106, 121
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,48 @@
+
+lobby_sevendayicon.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sd1
+  rotate: false
+  xy: 70, 88
+  size: 49, 38
+  orig: 51, 40
+  offset: 1, 1
+  index: -1
+sd2
+  rotate: true
+  xy: 170, 92
+  size: 34, 50
+  orig: 36, 52
+  offset: 1, 1
+  index: -1
+sd3
+  rotate: false
+  xy: 2, 65
+  size: 66, 61
+  orig: 68, 63
+  offset: 1, 1
+  index: -1
+sd4
+  rotate: true
+  xy: 121, 88
+  size: 38, 47
+  orig: 40, 49
+  offset: 1, 1
+  index: -1
+sd5
+  rotate: true
+  xy: 70, 52
+  size: 34, 38
+  orig: 36, 40
+  offset: 1, 1
+  index: -1
+sd6
+  rotate: true
+  xy: 2, 2
+  size: 61, 53
+  orig: 63, 55
+  offset: 1, 1
+  index: -1

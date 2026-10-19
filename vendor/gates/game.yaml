@@ -1,0 +1,719 @@
+schemaVersion: "2.0"
+engineApi: "1.0"
+id: gates-of-olympus
+version: 1.0.0
+title: Gates of Olympus
+layout:
+  reels: 6
+  rows: 5
+  orientation: landscape
+  maxVisibleCells: 100
+symbols:
+  - id: high-1
+    name: Crown
+    kind: normal
+    asset: high-1
+    tags:
+      - high
+  - id: high-2
+    name: Hourglass
+    kind: normal
+    asset: high-2
+    tags:
+      - high
+  - id: high-3
+    name: Ring
+    kind: normal
+    asset: high-3
+    tags:
+      - high
+  - id: high-4
+    name: Chalice
+    kind: normal
+    asset: high-4
+    tags:
+      - high
+  - id: low-1
+    name: Red Gem
+    kind: normal
+    asset: low-1
+    tags:
+      - low
+  - id: low-2
+    name: Purple Gem
+    kind: normal
+    asset: low-2
+    tags:
+      - low
+  - id: low-3
+    name: Yellow Gem
+    kind: normal
+    asset: low-3
+    tags:
+      - low
+  - id: low-4
+    name: Green Gem
+    kind: normal
+    asset: low-4
+    tags:
+      - low
+  - id: low-5
+    name: Blue Gem
+    kind: normal
+    asset: low-5
+    tags:
+      - low
+  - id: scatter
+    name: Zeus
+    kind: scatter
+    asset: scatter
+  - id: bonus
+    name: Multiplier Orb
+    kind: bonus
+    asset: bonus
+math:
+  evaluator: count
+  outcomeGenerator: weighted-grid
+  maxCascades: 30
+  targets:
+    rtpBps: 9650
+    volatility: high
+    hitRateBps:
+      - 2000
+      - 3400
+    maxWinMultiplier:
+      numerator: "5000"
+      denominator: "1"
+  paytable:
+    - symbolId: high-1
+      count: 8
+      payout:
+        numerator: "10"
+        denominator: "1"
+      basis: bet
+    - symbolId: high-1
+      count: 10
+      payout:
+        numerator: "25"
+        denominator: "1"
+      basis: bet
+    - symbolId: high-1
+      count: 12
+      payout:
+        numerator: "50"
+        denominator: "1"
+      basis: bet
+    - symbolId: high-2
+      count: 8
+      payout:
+        numerator: "5"
+        denominator: "2"
+      basis: bet
+    - symbolId: high-2
+      count: 10
+      payout:
+        numerator: "10"
+        denominator: "1"
+      basis: bet
+    - symbolId: high-2
+      count: 12
+      payout:
+        numerator: "25"
+        denominator: "1"
+      basis: bet
+    - symbolId: high-3
+      count: 8
+      payout:
+        numerator: "2"
+        denominator: "1"
+      basis: bet
+    - symbolId: high-3
+      count: 10
+      payout:
+        numerator: "5"
+        denominator: "1"
+      basis: bet
+    - symbolId: high-3
+      count: 12
+      payout:
+        numerator: "15"
+        denominator: "1"
+      basis: bet
+    - symbolId: high-4
+      count: 8
+      payout:
+        numerator: "3"
+        denominator: "2"
+      basis: bet
+    - symbolId: high-4
+      count: 10
+      payout:
+        numerator: "2"
+        denominator: "1"
+      basis: bet
+    - symbolId: high-4
+      count: 12
+      payout:
+        numerator: "12"
+        denominator: "1"
+      basis: bet
+    - symbolId: low-1
+      count: 8
+      payout:
+        numerator: "1"
+        denominator: "1"
+      basis: bet
+    - symbolId: low-1
+      count: 10
+      payout:
+        numerator: "3"
+        denominator: "2"
+      basis: bet
+    - symbolId: low-1
+      count: 12
+      payout:
+        numerator: "10"
+        denominator: "1"
+      basis: bet
+    - symbolId: low-2
+      count: 8
+      payout:
+        numerator: "4"
+        denominator: "5"
+      basis: bet
+    - symbolId: low-2
+      count: 10
+      payout:
+        numerator: "6"
+        denominator: "5"
+      basis: bet
+    - symbolId: low-2
+      count: 12
+      payout:
+        numerator: "8"
+        denominator: "1"
+      basis: bet
+    - symbolId: low-3
+      count: 8
+      payout:
+        numerator: "1"
+        denominator: "2"
+      basis: bet
+    - symbolId: low-3
+      count: 10
+      payout:
+        numerator: "1"
+        denominator: "1"
+      basis: bet
+    - symbolId: low-3
+      count: 12
+      payout:
+        numerator: "5"
+        denominator: "1"
+      basis: bet
+    - symbolId: low-4
+      count: 8
+      payout:
+        numerator: "2"
+        denominator: "5"
+      basis: bet
+    - symbolId: low-4
+      count: 10
+      payout:
+        numerator: "9"
+        denominator: "10"
+      basis: bet
+    - symbolId: low-4
+      count: 12
+      payout:
+        numerator: "4"
+        denominator: "1"
+      basis: bet
+    - symbolId: low-5
+      count: 8
+      payout:
+        numerator: "1"
+        denominator: "4"
+      basis: bet
+    - symbolId: low-5
+      count: 10
+      payout:
+        numerator: "3"
+        denominator: "4"
+      basis: bet
+    - symbolId: low-5
+      count: 12
+      payout:
+        numerator: "2"
+        denominator: "1"
+      basis: bet
+    - symbolId: scatter
+      count: 4
+      payout:
+        numerator: "3"
+        denominator: "1"
+      basis: bet
+    - symbolId: scatter
+      count: 5
+      payout:
+        numerator: "5"
+        denominator: "1"
+      basis: bet
+    - symbolId: scatter
+      count: 6
+      payout:
+        numerator: "100"
+        denominator: "1"
+      basis: bet
+  symbolWeights:
+    high-1: 700
+    high-2: 760
+    high-3: 820
+    high-4: 880
+    low-1: 1180
+    low-2: 1260
+    low-3: 1350
+    low-4: 1440
+    low-5: 1540
+    scatter: 218
+    bonus: 150
+  featureWeights:
+    free-spins: 100
+features:
+  - id: cascading-reels
+    enabled: true
+  - id: tumble-multiplier-orbs
+    enabled: true
+    config:
+      symbolId: bonus
+      values:
+        - 2
+        - 4
+        - 6
+        - 8
+        - 10
+        - 15
+        - 20
+        - 25
+        - 50
+        - 100
+        - 250
+        - 500
+      weights:
+        - 400
+        - 300
+        - 200
+        - 150
+        - 120
+        - 60
+        - 40
+        - 30
+        - 10
+        - 4
+        - 2
+        - 1
+  - id: scatter-trigger
+    enabled: true
+    config:
+      count: 4
+      countOn: final-grid
+  - id: free-spins
+    enabled: true
+    config:
+      spins: 15
+  - id: retriggering-free-spins
+    enabled: true
+    config:
+      scatterCount: 3
+      spins: 5
+      countOn: final-grid
+  - id: ante-bet
+    enabled: true
+    config:
+      scatterWeightMultiplierBps: 12350
+      stakeMultiplierBps: 12500
+  - id: bonus-buy
+    enabled: true
+    config:
+      costMultiplier: 38
+assets:
+  - id: high-1
+    role: symbol
+    path: assets/high-1.png
+    mediaType: image/png
+    sha256: 1d56420549418e6c7a803acad5364cb7e9a24fc4b458f8500b14debef923495a
+    generation:
+      provider: gemini
+      model: gemini-3.1-flash-image
+      prompt: "Ancient Greek Mount Olympus, towering marble temple gates among storm
+        clouds, gold ornamentation and royal purple, gleaming cut gemstones,
+        dramatic divine lightning, painterly high-detail casino art. Create a
+        centered slot-reel symbol: a single isolated Crown, rendered as one
+        polished game icon, completely isolated on a plain uniform solid
+        background with no scenery, clouds, architecture, frames, or environment
+        behind it. No logos, trademarks, or text."
+      runDir: C:\projects\ai\slot-skills\tmp\slot-runs\gates-of-olympus\20260720T172700.270673+0000-high-1
+  - id: high-2
+    role: symbol
+    path: assets/high-2.png
+    mediaType: image/png
+    sha256: 60f8a26300c36baba350024bb96691d17ad4a67c14750228745050111ca3df3d
+    generation:
+      provider: gemini
+      model: gemini-3.1-flash-image
+      prompt: "Ancient Greek Mount Olympus, towering marble temple gates among storm
+        clouds, gold ornamentation and royal purple, gleaming cut gemstones,
+        dramatic divine lightning, painterly high-detail casino art. Create a
+        centered slot-reel symbol: a single isolated Hourglass, rendered as one
+        polished game icon, completely isolated on a plain uniform solid
+        background with no scenery, clouds, architecture, frames, or environment
+        behind it. No logos, trademarks, or text."
+      runDir: C:\projects\ai\slot-skills\tmp\slot-runs\gates-of-olympus\20260720T172722.901300+0000-high-2
+  - id: high-3
+    role: symbol
+    path: assets/high-3.png
+    mediaType: image/png
+    sha256: 67bf1c2f2424cf4237d1108cfd614e4dad9277a86b6ca05a6113a3adaf5dbe42
+    generation:
+      provider: gemini
+      model: gemini-3.1-flash-image
+      prompt: "Ancient Greek Mount Olympus, towering marble temple gates among storm
+        clouds, gold ornamentation and royal purple, gleaming cut gemstones,
+        dramatic divine lightning, painterly high-detail casino art. Create a
+        centered slot-reel symbol: a single isolated Ring, rendered as one
+        polished game icon, completely isolated on a plain uniform solid
+        background with no scenery, clouds, architecture, frames, or environment
+        behind it. No logos, trademarks, or text."
+      runDir: C:\projects\ai\slot-skills\tmp\slot-runs\gates-of-olympus\20260720T172747.198081+0000-high-3
+  - id: high-4
+    role: symbol
+    path: assets/high-4.png
+    mediaType: image/png
+    sha256: b62e017fd0837e0f1845803313aafa10314b60110f947a5cc982d82faaf63f4d
+    generation:
+      provider: gemini
+      model: gemini-3.1-flash-image
+      prompt: "Ancient Greek Mount Olympus, towering marble temple gates among storm
+        clouds, gold ornamentation and royal purple, gleaming cut gemstones,
+        dramatic divine lightning, painterly high-detail casino art. Create a
+        centered slot-reel symbol: a single isolated Chalice, rendered as one
+        polished game icon, completely isolated on a plain uniform solid
+        background with no scenery, clouds, architecture, frames, or environment
+        behind it. No logos, trademarks, or text."
+      runDir: C:\projects\ai\slot-skills\tmp\slot-runs\gates-of-olympus\20260720T172815.209772+0000-high-4
+  - id: low-1
+    role: symbol
+    path: assets/low-1.png
+    mediaType: image/png
+    sha256: 4b167d8fd3ef46929df14a1cca0b95c606ea73cb719bab2e111212f12a29d7f1
+    generation:
+      provider: gemini
+      model: gemini-3.1-flash-image
+      prompt: "Ancient Greek Mount Olympus, towering marble temple gates among storm
+        clouds, gold ornamentation and royal purple, gleaming cut gemstones,
+        dramatic divine lightning, painterly high-detail casino art. Create a
+        centered slot-reel symbol: a single isolated Red Gem, rendered as one
+        polished game icon, completely isolated on a plain uniform solid
+        background with no scenery, clouds, architecture, frames, or environment
+        behind it. No logos, trademarks, or text."
+      runDir: C:\projects\ai\slot-skills\tmp\slot-runs\gates-of-olympus\20260720T172839.280012+0000-low-1
+  - id: low-2
+    role: symbol
+    path: assets/low-2.png
+    mediaType: image/png
+    sha256: ecd3a602f58cd65a7192408d8f2f11a1a1834914929ed36946084e19c683c2a8
+    generation:
+      provider: gemini
+      model: gemini-3.1-flash-image
+      prompt: "Ancient Greek Mount Olympus, towering marble temple gates among storm
+        clouds, gold ornamentation and royal purple, gleaming cut gemstones,
+        dramatic divine lightning, painterly high-detail casino art. Create a
+        centered slot-reel symbol: a single isolated Purple Gem, rendered as one
+        polished game icon, completely isolated on a plain uniform solid
+        background with no scenery, clouds, architecture, frames, or environment
+        behind it. No logos, trademarks, or text."
+      runDir: C:\projects\ai\slot-skills\tmp\slot-runs\gates-of-olympus\20260720T172905.581911+0000-low-2
+  - id: low-3
+    role: symbol
+    path: assets/low-3.png
+    mediaType: image/png
+    sha256: 464326293f0a5b675c61f33adc7fe79559857bd3d0aa31bbacd3448b7eb77213
+    generation:
+      provider: gemini
+      model: gemini-3.1-flash-image
+      prompt: "Ancient Greek Mount Olympus, towering marble temple gates among storm
+        clouds, gold ornamentation and royal purple, gleaming cut gemstones,
+        dramatic divine lightning, painterly high-detail casino art. Create a
+        centered slot-reel symbol: a single isolated Yellow Gem, rendered as one
+        polished game icon, completely isolated on a plain uniform solid
+        background with no scenery, clouds, architecture, frames, or environment
+        behind it. No logos, trademarks, or text."
+      runDir: C:\projects\ai\slot-skills\tmp\slot-runs\gates-of-olympus\20260720T172928.128068+0000-low-3
+  - id: low-4
+    role: symbol
+    path: assets/low-4.png
+    mediaType: image/png
+    sha256: 2ecbf15e1f284bafc8723e8854ba1a17a1a74007605d119b4d6edef1945a5a05
+    generation:
+      provider: gemini
+      model: gemini-3.1-flash-image
+      prompt: "Ancient Greek Mount Olympus, towering marble temple gates among storm
+        clouds, gold ornamentation and royal purple, gleaming cut gemstones,
+        dramatic divine lightning, painterly high-detail casino art. Create a
+        centered slot-reel symbol: a single isolated Green Gem, rendered as one
+        polished game icon, completely isolated on a plain uniform solid
+        background with no scenery, clouds, architecture, frames, or environment
+        behind it. No logos, trademarks, or text."
+      runDir: C:\projects\ai\slot-skills\tmp\slot-runs\gates-of-olympus\20260720T172950.740895+0000-low-4
+  - id: low-5
+    role: symbol
+    path: assets/low-5.png
+    mediaType: image/png
+    sha256: 77986ed139ac5f346cfc2fdd35e8cb23226200c5ded305f4f4c1e7504576abbb
+    generation:
+      provider: gemini
+      model: gemini-3.1-flash-image
+      prompt: "Ancient Greek Mount Olympus, towering marble temple gates among storm
+        clouds, gold ornamentation and royal purple, gleaming cut gemstones,
+        dramatic divine lightning, painterly high-detail casino art. Create a
+        centered slot-reel symbol: a single isolated Blue Gem, rendered as one
+        polished game icon, completely isolated on a plain uniform solid
+        background with no scenery, clouds, architecture, frames, or environment
+        behind it. No logos, trademarks, or text."
+      runDir: C:\projects\ai\slot-skills\tmp\slot-runs\gates-of-olympus\20260720T173011.205251+0000-low-5
+  - id: scatter
+    role: symbol
+    path: assets/scatter.png
+    mediaType: image/png
+    sha256: defa13a36f8fa62198d8970b0c00b573d521aed600a2af5b8158113d546ef4d5
+    generation:
+      provider: gemini
+      model: gemini-3.1-flash-image
+      prompt: "Ancient Greek Mount Olympus, towering marble temple gates among storm
+        clouds, gold ornamentation and royal purple, gleaming cut gemstones,
+        dramatic divine lightning, painterly high-detail casino art. Create a
+        centered slot-reel symbol: a single isolated Zeus, rendered as one
+        polished game icon, completely isolated on a plain uniform solid
+        background with no scenery, clouds, architecture, frames, or environment
+        behind it. No logos, trademarks, or text."
+      runDir: C:\projects\ai\slot-skills\tmp\slot-runs\gates-of-olympus\20260720T173032.323069+0000-scatter
+  - id: bonus
+    role: symbol
+    path: assets/bonus.png
+    mediaType: image/png
+    sha256: e16bed4e3b3add85640639aab765d61d38d84742da8dd01fb45d43f453f31def
+    generation:
+      provider: gemini
+      model: gemini-3.1-flash-image
+      prompt: "Ancient Greek Mount Olympus, towering marble temple gates among storm
+        clouds, gold ornamentation and royal purple, gleaming cut gemstones,
+        dramatic divine lightning, painterly high-detail casino art. Create a
+        centered slot-reel symbol: a single isolated Multiplier Orb, rendered as
+        one polished game icon, completely isolated on a plain uniform solid
+        background with no scenery, clouds, architecture, frames, or environment
+        behind it. No logos, trademarks, or text."
+      runDir: C:\projects\ai\slot-skills\tmp\slot-runs\gates-of-olympus\20260720T173053.813613+0000-bonus
+  - id: background
+    role: background
+    path: assets/background.png
+    mediaType: image/png
+    sha256: 594bcbacec4e28affd0fc4e4bdecd94646ff43df2e3a8ae04bca9beba3dc5976
+    generation:
+      provider: gemini
+      model: gemini-3.1-flash-image
+      prompt: Ancient Greek Mount Olympus, towering marble temple gates among storm
+        clouds, gold ornamentation and royal purple, gleaming cut gemstones,
+        dramatic divine lightning, painterly high-detail casino art. Create a
+        wide game background with a clear central reel safe area. No logos,
+        trademarks, or text.
+      runDir: C:\projects\ai\slot-skills\tmp\slot-runs\gates-of-olympus\20260720T172547.226577+0000-background
+  - id: zeus-idle
+    role: character
+    path: assets/zeus-idle.avif
+    fallback: assets/zeus.png
+    mediaType: image/avif
+    sha256: 6469f3a5ab03d3402468a7e39a1c4796edd71fee47b356d285d452573de3bfe9
+    generation:
+      provider: gemini
+      model: veo-3.1-generate-preview
+      prompt: Stationary idle only. Zeus floats in place with his arms relaxed by
+        his sides. Keep his body and screen position fixed with no bobbing,
+        rising, falling, walking, flying, or camera motion. Add only restrained
+        breathing and a gentle breeze through his hair, beard, cloak, and robe
+        hems. Return exactly to the supplied starting pose.
+      runDir: C:\projects\ai\slot-skills\tmp\slot-runs\gates-of-olympus\stationary-character-idle-top-only\20260721T082326Z-stationary-idle-only-the-supplied-stylised-fanta
+  - id: zeus-cast
+    role: character
+    path: assets/zeus-cast.avif
+    fallback: assets/zeus.png
+    mediaType: image/avif
+    animationDurationMs: 10043
+    sha256: 89ad5303c6f2c140106cdbc6b6471e03d8c9d1155af4ac69955903041835dabc
+    generation:
+      provider: gemini
+      model: veo-3.1-generate-preview
+      prompt: Raised-hand lightning win. Zeus conjures a bright lightning bolt
+        across his hands, raises both hands and the bolt overhead in triumph,
+        then lowers his arms and returns to the exact neutral pose. Keep the
+        body anchor and camera locked throughout.
+      runDir: C:\projects\ai\slot-skills\tmp\slot-runs\gates-of-olympus\raised-hand-win-top-only\20260721T083002Z-raised-hand-win-gesture-only-the-supplied-stylis
+  - id: sfx-spin-start
+    role: sound
+    path: assets/sounds/spin-start.web.ogg
+    mediaType: audio/ogg
+  - id: sfx-reel-stop
+    role: sound
+    path: assets/sounds/reel-stop.web.ogg
+    mediaType: audio/ogg
+  - id: sfx-win
+    role: sound
+    path: assets/sounds/win.web.ogg
+    mediaType: audio/ogg
+  - id: sfx-big-win
+    role: sound
+    path: assets/sounds/big-win.web.ogg
+    mediaType: audio/ogg
+  - id: sfx-win-multiplier
+    role: sound
+    path: assets/sounds/win-multiplier.web.ogg
+    mediaType: audio/ogg
+  - id: sfx-symbols-remove
+    role: sound
+    path: assets/sounds/symbols-remove.web.ogg
+    mediaType: audio/ogg
+  - id: sfx-symbols-drop
+    role: sound
+    path: assets/sounds/symbols-drop.web.ogg
+    mediaType: audio/ogg
+  - id: sfx-free-spins-start
+    role: sound
+    path: assets/sounds/free-spins-start.web.ogg
+    mediaType: audio/ogg
+  - id: sfx-free-spins-end
+    role: sound
+    path: assets/sounds/free-spins-end.web.ogg
+    mediaType: audio/ogg
+  - id: sfx-near-miss
+    role: sound
+    path: assets/sounds/near-miss.web.ogg
+    mediaType: audio/ogg
+  - id: sfx-feature-start
+    role: sound
+    path: assets/sounds/feature-start.web.ogg
+    mediaType: audio/ogg
+  - id: sfx-orb-land
+    role: sound-effect
+    path: assets/sounds/sfx-orb-land.web.ogg
+    mediaType: audio/ogg
+    sha256: fb735afe0dab23bb07d18827ba2c92c2adc05542fcd4028e8b95a66e02bb48eb
+    generation:
+      provider: elevenlabs
+      model: eleven_text_to_sound_v2
+      prompt: Ancient Greek Mount Olympus, towering marble temple gates among storm
+        clouds, gold ornamentation and royal purple, gleaming cut gemstones,
+        dramatic divine lightning, painterly high-detail casino art. sfx orb
+        land, clean short slot-game sound, no speech
+      runDir: C:\projects\ai\slots-oneshots\gates-of-olympus\assets\sounds
+  - id: sfx-tumble-multiplier
+    role: sound-effect
+    path: assets/sounds/sfx-tumble-multiplier.web.ogg
+    mediaType: audio/ogg
+    sha256: 584252408063a23db72f72f60a5aa7ad66a94e4d661851bb733fbfc333f8f6ff
+    generation:
+      provider: elevenlabs
+      model: eleven_text_to_sound_v2
+      prompt: Ancient Greek Mount Olympus, towering marble temple gates among storm
+        clouds, gold ornamentation and royal purple, gleaming cut gemstones,
+        dramatic divine lightning, painterly high-detail casino art. sfx tumble
+        multiplier, clean short slot-game sound, no speech
+      runDir: C:\projects\ai\slots-oneshots\gates-of-olympus\assets\sounds
+  - id: sfx-zeus-cast
+    role: sound-effect
+    path: assets/sounds/sfx-zeus-cast.web.ogg
+    mediaType: audio/ogg
+    sha256: 184581a50d8e139229f8f6488e15cf72031062a7d2e96e8178422f740569acb9
+    generation:
+      provider: user-supplied
+      model: embedded-aac
+      prompt: Audio embedded in the supplied Zeus lightning-win video, transcoded
+        to stereo 48 kHz Vorbis for synchronized max-win playback.
+      runDir: C:\projects\ai\slot-skills\tmp\slot-runs\gates-of-olympus\lightning-win-top-only-retry\20260721T082823Z-lightning-win-action-the-supplied-stylised-fanta
+  - id: music-base
+    role: background-music
+    path: assets/music/music-base.web.ogg
+    mediaType: audio/ogg
+    sha256: 63dcc235d097d41dec8bf6b1d22659d17fa34f96e82c7c42c7076261eedc8e69
+    generation:
+      provider: elevenlabs
+      model: music_v2
+      prompt: Epic ancient Greek orchestral background loop, majestic restrained arrangement, seamless loop
+      runDir: assets/music
+  - id: music-bonus
+    role: background-music
+    path: assets/music/music-bonus.web.ogg
+    mediaType: audio/ogg
+    sha256: 45c63bce141834aceafc54dabd23546aacc715ff5184d4d2496f8418fb20b9a9
+    generation:
+      provider: elevenlabs
+      model: music_v2
+      prompt: Epic intense Greek orchestral bonus loop, triumphant brass and choir, seamless loop
+      runDir: assets/music
+theme:
+  id: gates-of-olympus
+  palette:
+    - "#120a2e"
+    - "#3d2a7d"
+    - "#f0c75e"
+    - "#8fb8ff"
+    - "#f7f4ff"
+  components:
+    reels: renderer:dom-grid
+    hud: renderer:default-hud
+    paytable: renderer:default-paytable
+    effects: renderer:canvas-overlay
+  effects:
+    win: symbol-win-pulse
+    symbols-remove: symbol-particle-burst
+    cascade-start: reel-cascade
+    symbol-value: symbol-electrify
+    tumble-multiplier: background-lightning
+    free-spins-start: light-rays
+    free-spins-end: background-confetti
+    near-miss: reel-anticipation
+    max-win: fire-inferno
+  sounds:
+    symbol-value: sfx-orb-land
+    tumble-multiplier: sfx-tumble-multiplier
+    max-win: sfx-zeus-cast
+locales:
+  default: en
+  packs:
+    en: locales/en.json
+    en-XA: locales/en-XA.json
+jurisdiction:
+  profileId: mt-mga-reference
+  reviewedAt: 2026-07-20
+  reviewBy: 2026-10-18
+  sourceUrls:
+    - https://legislation.mt/eli/cap/583/eng
+    - https://www.mga.org.mt/app/uploads/Gaming-Authorisations-and-Compliance-Directive-Directive-3-of-2018.pdf
+    - https://www.mga.org.mt/app/uploads/Player-Protection-Directive-Directive-2-of-2018.pdf
+    - https://gaminglabs.com/wp-content/uploads/2024/06/GLI-19-Interactive-Gaming-Systems-v3.0.pdf
+providers:
+  rng: node-crypto
+  wallet: local
+  jackpot: local
+  session: local
+  audit: local
+  image: gemini-3.1-flash-image
+  video: veo-3.1-generate-preview
+  audio: elevenlabs
+presentation:
+  cycleDurationMs: 1000
+  autoPlay: false
+  turbo: false
+  slamStop: false
+  celebrateReturnAtOrBelowStake: true
+  reducedMotionFallback: true
+  characterHeight: 680
+  characterOverflow: true

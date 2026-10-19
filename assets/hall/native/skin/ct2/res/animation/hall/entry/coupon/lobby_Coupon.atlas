@@ -1,0 +1,62 @@
+
+lobby_Coupon.png
+size: 261,136
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01
+  rotate: false
+  xy: 2, 6
+  size: 76, 32
+  orig: 76, 32
+  offset: 0, 0
+  index: -1
+02
+  rotate: true
+  xy: 216, 4
+  size: 59, 43
+  orig: 60, 43
+  offset: 1, 0
+  index: -1
+03
+  rotate: true
+  xy: 168, 2
+  size: 61, 46
+  orig: 63, 47
+  offset: 1, 0
+  index: -1
+glow2
+  rotate: false
+  xy: 2, 40
+  size: 94, 94
+  orig: 100, 100
+  offset: 3, 3
+  index: -1
+guang
+  rotate: true
+  xy: 98, 40
+  size: 94, 68
+  orig: 100, 84
+  offset: 4, 9
+  index: -1
+lizi_10
+  rotate: false
+  xy: 168, 65
+  size: 87, 69
+  orig: 148, 129
+  offset: 36, 27
+  index: -1
+xx
+  rotate: false
+  xy: 105, 23
+  size: 15, 15
+  orig: 19, 19
+  offset: 2, 2
+  index: -1
+xx1
+  rotate: true
+  xy: 80, 9
+  size: 29, 23
+  orig: 36, 27
+  offset: 3, 4
+  index: -1

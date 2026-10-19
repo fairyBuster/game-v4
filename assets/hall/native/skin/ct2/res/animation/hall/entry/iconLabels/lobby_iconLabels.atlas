@@ -1,0 +1,13 @@
+
+lobby_iconLabels.png
+size: 114,62
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bq
+  rotate: false
+  xy: 0, 0
+  size: 114, 62
+  orig: 114, 64
+  offset: 0, 2
+  index: -1

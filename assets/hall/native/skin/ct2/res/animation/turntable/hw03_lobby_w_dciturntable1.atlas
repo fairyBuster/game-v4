@@ -1,0 +1,111 @@
+
+hw03_lobby_w_dciturntable1.png
+size: 1024,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+turnle_16fx_00
+  rotate: false
+  xy: 636, 2
+  size: 81, 29
+  orig: 123, 72
+  offset: 28, 24
+  index: -1
+turnle_16fx_01
+  rotate: false
+  xy: 551, 31
+  size: 83, 31
+  orig: 123, 72
+  offset: 27, 23
+  index: -1
+turnle_16fx_02
+  rotate: false
+  xy: 375, 2
+  size: 85, 28
+  orig: 123, 72
+  offset: 26, 22
+  index: -1
+turnle_16fx_03
+  rotate: false
+  xy: 188, 2
+  size: 88, 29
+  orig: 123, 72
+  offset: 24, 21
+  index: -1
+turnle_16fx_04
+  rotate: false
+  xy: 283, 31
+  size: 90, 31
+  orig: 123, 72
+  offset: 23, 20
+  index: -1
+turnle_16fx_05
+  rotate: false
+  xy: 2, 30
+  size: 92, 32
+  orig: 123, 72
+  offset: 22, 19
+  index: -1
+turnle_16fx_06
+  rotate: false
+  xy: 883, 31
+  size: 77, 31
+  orig: 123, 72
+  offset: 21, 21
+  index: -1
+turnle_16fx_07
+  rotate: false
+  xy: 802, 31
+  size: 79, 31
+  orig: 123, 72
+  offset: 20, 21
+  index: -1
+turnle_16fx_08
+  rotate: false
+  xy: 636, 33
+  size: 82, 29
+  orig: 123, 72
+  offset: 19, 23
+  index: -1
+turnle_16fx_09
+  rotate: false
+  xy: 720, 31
+  size: 80, 31
+  orig: 123, 72
+  offset: 22, 22
+  index: -1
+turnle_16fx_10
+  rotate: false
+  xy: 462, 2
+  size: 82, 28
+  orig: 123, 72
+  offset: 21, 25
+  index: -1
+turnle_16fx_11
+  rotate: false
+  xy: 464, 32
+  size: 85, 30
+  orig: 123, 72
+  offset: 19, 23
+  index: -1
+turnle_16fx_12
+  rotate: false
+  xy: 375, 32
+  size: 87, 30
+  orig: 123, 72
+  offset: 18, 23
+  index: -1
+turnle_16fx_13
+  rotate: false
+  xy: 96, 30
+  size: 90, 32
+  orig: 123, 72
+  offset: 17, 22
+  index: -1
+turnle_16fx_14
+  rotate: false
+  xy: 188, 33
+  size: 93, 29
+  orig: 123, 72
+  offset: 15, 25
+  index: -1

@@ -1,0 +1,83 @@
+
+lobby_iconpdd.png
+size: 619,239
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+box1
+  rotate: true
+  xy: 521, 13
+  size: 100, 67
+  orig: 103, 70
+  offset: 1, 1
+  index: -1
+box2
+  rotate: false
+  xy: 590, 89
+  size: 22, 24
+  orig: 24, 26
+  offset: 1, 1
+  index: -1
+box3
+  rotate: true
+  xy: 499, 115
+  size: 124, 120
+  orig: 126, 122
+  offset: 1, 1
+  index: -1
+box4
+  rotate: false
+  xy: 470, 77
+  size: 29, 30
+  orig: 32, 32
+  offset: 2, 1
+  index: -1
+box5
+  rotate: false
+  xy: 421, 1
+  size: 98, 59
+  orig: 102, 61
+  offset: 2, 1
+  index: -1
+box6
+  rotate: false
+  xy: 329, 4
+  size: 90, 49
+  orig: 92, 51
+  offset: 1, 1
+  index: -1
+box7
+  rotate: false
+  xy: 239, 0
+  size: 88, 53
+  orig: 91, 55
+  offset: 2, 1
+  index: -1
+box8
+  rotate: false
+  xy: 371, 62
+  size: 97, 45
+  orig: 100, 50
+  offset: 2, 2
+  index: -1
+fsh1
+  rotate: false
+  xy: 0, 2
+  size: 237, 237
+  orig: 243, 243
+  offset: 3, 3
+  index: -1
+xfg
+  rotate: true
+  xy: 371, 109
+  size: 130, 126
+  orig: 131, 131
+  offset: 1, 4
+  index: -1
+xx
+  rotate: true
+  xy: 239, 55
+  size: 184, 130
+  orig: 193, 182
+  offset: 5, 48
+  index: -1

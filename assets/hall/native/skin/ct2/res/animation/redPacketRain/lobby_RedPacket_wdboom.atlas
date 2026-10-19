@@ -1,0 +1,27 @@
+
+lobby_RedPacket_wdboom.png
+size: 423,246
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+h03gn2
+  rotate: false
+  xy: 248, 1
+  size: 76, 76
+  orig: 76, 76
+  offset: 0, 0
+  index: -1
+h03gn3
+  rotate: false
+  xy: 248, 79
+  size: 175, 167
+  orig: 175, 167
+  offset: 0, 0
+  index: -1
+qq
+  rotate: false
+  xy: 0, 0
+  size: 246, 246
+  orig: 246, 246
+  offset: 0, 0
+  index: -1

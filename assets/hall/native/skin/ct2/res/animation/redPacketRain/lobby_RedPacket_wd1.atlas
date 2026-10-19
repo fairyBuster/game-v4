@@ -1,0 +1,41 @@
+
+lobby_RedPacket_wd1.png
+size: 1413,947
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bgfx1
+  rotate: true
+  xy: 2, 2
+  size: 943, 965
+  orig: 966, 998
+  offset: 23, 33
+  index: -1
+bgfx4
+  rotate: true
+  xy: 969, 260
+  size: 685, 442
+  orig: 685, 531
+  offset: 0, 89
+  index: -1
+lx1
+  rotate: true
+  xy: 969, 198
+  size: 60, 307
+  orig: 64, 307
+  offset: 3, 0
+  index: -1
+xx1
+  rotate: false
+  xy: 969, 130
+  size: 65, 66
+  orig: 71, 70
+  offset: 3, 2
+  index: -1
+xx2
+  rotate: false
+  xy: 1278, 203
+  size: 54, 55
+  orig: 59, 59
+  offset: 2, 1
+  index: -1

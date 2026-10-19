@@ -1,0 +1,132 @@
+
+hw03_lobby_lamp.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bgfx/bgfx_00
+  rotate: false
+  xy: 424, 448
+  size: 302, 105
+  orig: 313, 105
+  offset: 11, 0
+  index: -1
+bgfx/bgfx_01
+  rotate: false
+  xy: 362, 876
+  size: 313, 105
+  orig: 313, 105
+  offset: 0, 0
+  index: -1
+bgfx/bgfx_02
+  rotate: false
+  xy: 2, 644
+  size: 313, 105
+  orig: 313, 105
+  offset: 0, 0
+  index: -1
+bgfx/bgfx_03
+  rotate: false
+  xy: 362, 769
+  size: 313, 105
+  orig: 313, 105
+  offset: 0, 0
+  index: -1
+bgfx/bgfx_04
+  rotate: false
+  xy: 677, 876
+  size: 313, 105
+  orig: 313, 105
+  offset: 0, 0
+  index: -1
+bgfx/bgfx_05
+  rotate: false
+  xy: 2, 323
+  size: 312, 105
+  orig: 313, 105
+  offset: 0, 0
+  index: -1
+bgfx/bgfx_06
+  rotate: false
+  xy: 2, 109
+  size: 309, 105
+  orig: 313, 105
+  offset: 0, 0
+  index: -1
+bgfx/bgfx_07
+  rotate: false
+  xy: 424, 555
+  size: 305, 105
+  orig: 313, 105
+  offset: 0, 0
+  index: -1
+bgfx/bgfx_08
+  rotate: false
+  xy: 2, 2
+  size: 309, 105
+  orig: 313, 105
+  offset: 0, 0
+  index: -1
+bgfx/bgfx_09
+  rotate: false
+  xy: 2, 537
+  size: 313, 105
+  orig: 313, 105
+  offset: 0, 0
+  index: -1
+bgfx/bgfx_10
+  rotate: false
+  xy: 677, 769
+  size: 313, 105
+  orig: 313, 105
+  offset: 0, 0
+  index: -1
+bgfx/bgfx_11
+  rotate: false
+  xy: 2, 430
+  size: 313, 105
+  orig: 313, 105
+  offset: 0, 0
+  index: -1
+bgfx/bgfx_12
+  rotate: false
+  xy: 2, 216
+  size: 312, 105
+  orig: 313, 105
+  offset: 1, 0
+  index: -1
+bgfx/bgfx_13
+  rotate: true
+  xy: 317, 440
+  size: 309, 105
+  orig: 313, 105
+  offset: 4, 0
+  index: -1
+bgfx/bgfx_14
+  rotate: false
+  xy: 424, 662
+  size: 306, 105
+  orig: 313, 105
+  offset: 7, 0
+  index: -1
+bgfx/bgfx_15
+  rotate: false
+  xy: 424, 341
+  size: 301, 105
+  orig: 313, 105
+  offset: 12, 0
+  index: -1
+lin1
+  rotate: false
+  xy: 2, 867
+  size: 358, 114
+  orig: 358, 114
+  offset: 0, 0
+  index: -1
+lin2
+  rotate: false
+  xy: 2, 751
+  size: 358, 114
+  orig: 358, 114
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,153 @@
+
+hw03_lobby_icon_withdraw.png
+size: 982,374
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+13
+  rotate: true
+  xy: 748, 97
+  size: 49, 48
+  orig: 57, 57
+  offset: 4, 5
+  index: -1
+se_hb/se_hb_00
+  rotate: false
+  xy: 645, 0
+  size: 72, 71
+  orig: 258, 210
+  offset: 94, 93
+  index: -1
+se_hb/se_hb_01
+  rotate: false
+  xy: 719, 4
+  size: 79, 67
+  orig: 258, 210
+  offset: 87, 98
+  index: -1
+se_hb/se_hb_02
+  rotate: false
+  xy: 880, 69
+  size: 89, 82
+  orig: 258, 210
+  offset: 83, 96
+  index: -1
+se_hb/se_hb_03
+  rotate: true
+  xy: 755, 148
+  size: 95, 99
+  orig: 258, 210
+  offset: 81, 84
+  index: -1
+se_hb/se_hb_04
+  rotate: true
+  xy: 857, 153
+  size: 107, 114
+  orig: 258, 210
+  offset: 81, 75
+  index: -1
+se_hb/se_hb_05
+  rotate: true
+  xy: 857, 262
+  size: 112, 125
+  orig: 258, 210
+  offset: 82, 67
+  index: -1
+se_hb/se_hb_06
+  rotate: false
+  xy: 743, 245
+  size: 112, 129
+  orig: 258, 210
+  offset: 81, 58
+  index: -1
+se_hb/se_hb_07
+  rotate: false
+  xy: 628, 223
+  size: 113, 151
+  orig: 258, 210
+  offset: 78, 43
+  index: -1
+se_hb/se_hb_08
+  rotate: false
+  xy: 172, 0
+  size: 133, 173
+  orig: 258, 210
+  offset: 62, 25
+  index: -1
+se_hb/se_hb_09
+  rotate: false
+  xy: 307, 8
+  size: 152, 172
+  orig: 258, 210
+  offset: 48, 24
+  index: -1
+se_hb/se_hb_10
+  rotate: false
+  xy: 0, 1
+  size: 170, 168
+  orig: 258, 210
+  offset: 33, 22
+  index: -1
+se_hb/se_hb_11
+  rotate: false
+  xy: 461, 24
+  size: 182, 156
+  orig: 258, 210
+  offset: 25, 22
+  index: -1
+se_hb/se_hb_12
+  rotate: true
+  xy: 268, 182
+  size: 192, 147
+  orig: 258, 210
+  offset: 20, 22
+  index: -1
+se_hb/se_hb_13
+  rotate: true
+  xy: 125, 175
+  size: 199, 141
+  orig: 258, 210
+  offset: 17, 22
+  index: -1
+se_hb/se_hb_14
+  rotate: true
+  xy: 0, 171
+  size: 203, 123
+  orig: 258, 210
+  offset: 17, 22
+  index: -1
+se_hb/se_hb_15
+  rotate: true
+  xy: 515, 191
+  size: 183, 111
+  orig: 258, 210
+  offset: 41, 22
+  index: -1
+se_hb/se_hb_16
+  rotate: true
+  xy: 417, 182
+  size: 192, 96
+  orig: 258, 210
+  offset: 35, 22
+  index: -1
+wallet1
+  rotate: true
+  xy: 800, 50
+  size: 96, 78
+  orig: 96, 78
+  offset: 0, 0
+  index: -1
+wallet2
+  rotate: false
+  xy: 645, 73
+  size: 101, 111
+  orig: 101, 111
+  offset: 0, 0
+  index: -1
+wallet3
+  rotate: false
+  xy: 628, 186
+  size: 125, 35
+  orig: 150, 59
+  offset: 2, 21
+  index: -1

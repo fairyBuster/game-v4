@@ -1,0 +1,118 @@
+
+lobby_MonthlyChecklq.png
+size: 624,491
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dk
+  rotate: true
+  xy: 0, 377
+  size: 114, 148
+  orig: 114, 148
+  offset: 0, 0
+  index: -1
+zg01/zg01_01
+  rotate: true
+  xy: 0, 253
+  size: 120, 156
+  orig: 284, 279
+  offset: 83, 62
+  index: -1
+zg01/zg01_03
+  rotate: true
+  xy: 158, 253
+  size: 120, 156
+  orig: 284, 279
+  offset: 83, 62
+  index: -1
+zg01/zg01_05
+  rotate: true
+  xy: 316, 251
+  size: 120, 156
+  orig: 284, 279
+  offset: 83, 62
+  index: -1
+zg01/zg01_07
+  rotate: true
+  xy: 466, 373
+  size: 118, 156
+  orig: 284, 279
+  offset: 84, 62
+  index: -1
+zg01/zg01_09
+  rotate: true
+  xy: 150, 375
+  size: 116, 156
+  orig: 284, 279
+  offset: 85, 62
+  index: -1
+zg01/zg01_11
+  rotate: true
+  xy: 308, 375
+  size: 116, 156
+  orig: 284, 279
+  offset: 85, 62
+  index: -1
+zg01/zg01_13
+  rotate: true
+  xy: 0, 129
+  size: 122, 154
+  orig: 284, 279
+  offset: 82, 63
+  index: -1
+zg01/zg01_15
+  rotate: true
+  xy: 156, 2
+  size: 123, 154
+  orig: 284, 279
+  offset: 81, 63
+  index: -1
+zg01/zg01_17
+  rotate: true
+  xy: 312, 0
+  size: 123, 154
+  orig: 284, 279
+  offset: 81, 63
+  index: -1
+zg01/zg01_19
+  rotate: true
+  xy: 468, 0
+  size: 123, 152
+  orig: 284, 279
+  offset: 81, 64
+  index: -1
+zg01/zg01_21
+  rotate: true
+  xy: 474, 249
+  size: 122, 150
+  orig: 284, 279
+  offset: 82, 65
+  index: -1
+zg01/zg01_23
+  rotate: true
+  xy: 156, 129
+  size: 122, 148
+  orig: 284, 279
+  offset: 82, 66
+  index: -1
+zg01/zg01_25
+  rotate: true
+  xy: 306, 127
+  size: 122, 144
+  orig: 284, 279
+  offset: 82, 68
+  index: -1
+zg01/zg01_27
+  rotate: true
+  xy: 452, 125
+  size: 122, 141
+  orig: 284, 279
+  offset: 82, 70
+  index: -1
+zg01/zg01_29
+  rotate: true
+  xy: 0, 5
+  size: 122, 154
+  orig: 284, 279
+  offset: 82, 63
+  index: -1

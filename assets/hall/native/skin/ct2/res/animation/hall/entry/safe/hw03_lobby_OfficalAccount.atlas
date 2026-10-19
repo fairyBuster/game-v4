@@ -1,0 +1,237 @@
+
+hw03_lobby_OfficalAccount.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Offical_gx/Offical_gx_00
+  rotate: false
+  xy: 123, 419
+  size: 95, 91
+  orig: 109, 119
+  offset: 7, 17
+  index: -1
+Offical_gx/Offical_gx_01
+  rotate: false
+  xy: 220, 422
+  size: 96, 88
+  orig: 109, 119
+  offset: 6, 17
+  index: -1
+Offical_gx/Offical_gx_02
+  rotate: false
+  xy: 318, 422
+  size: 95, 88
+  orig: 109, 119
+  offset: 7, 17
+  index: -1
+Offical_gx/Offical_gx_03
+  rotate: false
+  xy: 415, 422
+  size: 95, 88
+  orig: 109, 119
+  offset: 7, 17
+  index: -1
+Offical_gx/Offical_gx_04
+  rotate: false
+  xy: 2, 173
+  size: 96, 89
+  orig: 109, 119
+  offset: 6, 17
+  index: -1
+Offical_gx/Offical_gx_05
+  rotate: false
+  xy: 512, 429
+  size: 97, 81
+  orig: 109, 119
+  offset: 5, 16
+  index: -1
+Offical_gx/Offical_gx_06
+  rotate: false
+  xy: 611, 430
+  size: 96, 80
+  orig: 109, 119
+  offset: 5, 17
+  index: -1
+Offical_gx/Offical_gx_07
+  rotate: false
+  xy: 709, 429
+  size: 94, 81
+  orig: 109, 119
+  offset: 5, 18
+  index: -1
+Offical_gx/Offical_gx_08
+  rotate: false
+  xy: 805, 429
+  size: 93, 81
+  orig: 109, 119
+  offset: 5, 18
+  index: -1
+Offical_gx/Offical_gx_09
+  rotate: false
+  xy: 413, 341
+  size: 93, 79
+  orig: 109, 119
+  offset: 5, 19
+  index: -1
+Offical_gx/Offical_gx_10
+  rotate: true
+  xy: 193, 170
+  size: 92, 78
+  orig: 109, 119
+  offset: 5, 21
+  index: -1
+Offical_gx/Offical_gx_11
+  rotate: false
+  xy: 207, 264
+  size: 90, 77
+  orig: 109, 119
+  offset: 5, 22
+  index: -1
+Offical_gx/Offical_gx_12
+  rotate: false
+  xy: 457, 179
+  size: 89, 75
+  orig: 109, 119
+  offset: 4, 23
+  index: -1
+Offical_gx/Offical_gx_13
+  rotate: true
+  xy: 548, 185
+  size: 89, 77
+  orig: 109, 119
+  offset: 4, 24
+  index: -1
+Offical_gx/Offical_gx_14
+  rotate: false
+  xy: 900, 429
+  size: 92, 81
+  orig: 109, 119
+  offset: 4, 25
+  index: -1
+Offical_gx/Offical_gx_15
+  rotate: false
+  xy: 299, 259
+  size: 92, 80
+  orig: 109, 119
+  offset: 5, 26
+  index: -1
+Offical_gx/Offical_gx_16
+  rotate: false
+  xy: 112, 264
+  size: 93, 77
+  orig: 109, 119
+  offset: 5, 26
+  index: -1
+Offical_gx/Offical_gx_17
+  rotate: false
+  xy: 363, 179
+  size: 92, 75
+  orig: 109, 119
+  offset: 6, 28
+  index: -1
+Offical_gx/Offical_gx_18
+  rotate: false
+  xy: 508, 276
+  size: 94, 75
+  orig: 109, 119
+  offset: 5, 26
+  index: -1
+Offical_gx/Offical_gx_19
+  rotate: false
+  xy: 123, 343
+  size: 95, 74
+  orig: 109, 119
+  offset: 5, 28
+  index: -1
+Offical_gx/Offical_gx_20
+  rotate: false
+  xy: 512, 353
+  size: 95, 74
+  orig: 109, 119
+  offset: 5, 27
+  index: -1
+Offical_gx/Offical_gx_21
+  rotate: false
+  xy: 220, 344
+  size: 95, 76
+  orig: 109, 119
+  offset: 5, 26
+  index: -1
+Offical_gx/Offical_gx_22
+  rotate: false
+  xy: 2, 2
+  size: 94, 77
+  orig: 109, 119
+  offset: 6, 25
+  index: -1
+Offical_gx/Offical_gx_23
+  rotate: false
+  xy: 317, 341
+  size: 94, 79
+  orig: 109, 119
+  offset: 6, 23
+  index: -1
+Offical_gx/Offical_gx_24
+  rotate: false
+  xy: 100, 97
+  size: 88, 79
+  orig: 109, 119
+  offset: 7, 22
+  index: -1
+Offical_gx/Offical_gx_25
+  rotate: false
+  xy: 98, 12
+  size: 87, 83
+  orig: 109, 119
+  offset: 9, 19
+  index: -1
+Offical_gx/Offical_gx_26
+  rotate: false
+  xy: 273, 174
+  size: 88, 83
+  orig: 109, 119
+  offset: 10, 18
+  index: -1
+Offical_gx/Offical_gx_27
+  rotate: false
+  xy: 393, 256
+  size: 90, 83
+  orig: 109, 119
+  offset: 9, 17
+  index: -1
+Offical_gx/Offical_gx_28
+  rotate: false
+  xy: 100, 178
+  size: 91, 84
+  orig: 109, 119
+  offset: 9, 17
+  index: -1
+Offical_gx/Offical_gx_29
+  rotate: false
+  xy: 2, 81
+  size: 94, 90
+  orig: 109, 119
+  offset: 7, 17
+  index: -1
+bg
+  rotate: false
+  xy: 2, 382
+  size: 119, 128
+  orig: 119, 128
+  offset: 0, 0
+  index: -1
+bgy
+  rotate: false
+  xy: 2, 264
+  size: 108, 116
+  orig: 108, 116
+  offset: 0, 0
+  index: -1
+suo
+  rotate: false
+  xy: 190, 98
+  size: 53, 70
+  orig: 53, 70
+  offset: 0, 0
+  index: -1

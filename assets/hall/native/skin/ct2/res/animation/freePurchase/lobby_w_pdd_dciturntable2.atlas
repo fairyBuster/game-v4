@@ -1,0 +1,118 @@
+
+lobby_w_pdd_dciturntable2.png
+size: 1952,1154
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg1
+  rotate: true
+  xy: 1223, 293
+  size: 861, 473
+  orig: 865, 477
+  offset: 2, 2
+  index: -1
+bg2
+  rotate: false
+  xy: 0, 0
+  size: 1199, 446
+  orig: 1300, 499
+  offset: 30, 4
+  index: -1
+bg3
+  rotate: false
+  xy: 0, 448
+  size: 1221, 706
+  orig: 1351, 708
+  offset: 79, 1
+  index: -1
+jb1
+  rotate: false
+  xy: 1698, 469
+  size: 75, 75
+  orig: 77, 78
+  offset: 1, 2
+  index: -1
+jb2
+  rotate: false
+  xy: 1777, 578
+  size: 69, 53
+  orig: 71, 55
+  offset: 1, 1
+  index: -1
+jb3
+  rotate: false
+  xy: 1698, 426
+  size: 46, 41
+  orig: 49, 43
+  offset: 1, 1
+  index: -1
+jb4
+  rotate: true
+  xy: 1698, 633
+  size: 521, 254
+  orig: 524, 257
+  offset: 2, 1
+  index: -1
+jb5
+  rotate: false
+  xy: 1698, 546
+  size: 77, 85
+  orig: 79, 87
+  offset: 1, 1
+  index: -1
+jb6
+  rotate: false
+  xy: 1201, 9
+  size: 542, 282
+  orig: 544, 285
+  offset: 1, 1
+  index: -1
+pd1
+  rotate: false
+  xy: 1746, 438
+  size: 23, 29
+  orig: 25, 31
+  offset: 1, 1
+  index: -1
+pd2
+  rotate: true
+  xy: 1848, 580
+  size: 15, 24
+  orig: 17, 26
+  offset: 1, 1
+  index: -1
+pd3
+  rotate: false
+  xy: 1848, 597
+  size: 43, 34
+  orig: 45, 36
+  offset: 1, 1
+  index: -1
+pd4
+  rotate: false
+  xy: 1698, 394
+  size: 35, 30
+  orig: 37, 32
+  offset: 1, 1
+  index: -1
+pd5
+  rotate: true
+  xy: 1777, 546
+  size: 30, 46
+  orig: 32, 48
+  offset: 1, 1
+  index: -1
+pd6
+  rotate: false
+  xy: 1775, 521
+  size: 48, 23
+  orig: 50, 25
+  offset: 1, 1
+  index: -1
+pd7
+  rotate: true
+  xy: 1201, 422
+  size: 24, 19
+  orig: 26, 21
+  offset: 1, 1
+  index: -1

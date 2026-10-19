@@ -1,0 +1,28 @@
+{
+  "created_at": "2026-07-21T09:09:00+00:00",
+  "kind": "video-derived-sound-effect",
+  "source": {
+    "path": "C:\\projects\\ai\\slot-skills\\tmp\\slot-runs\\gates-of-olympus\\lightning-win-top-only-retry\\20260721T082823Z-lightning-win-action-the-supplied-stylised-fanta\\video\\raw.mp4",
+    "sha256": "a24911a3a19378f585b43e783014897b65cf53e4fa0ce7a796d9161f1b20183b",
+    "codec": "aac",
+    "sample_rate": 48000,
+    "channels": 2,
+    "duration_seconds": 10.005
+  },
+  "transcode": {
+    "codec": "vorbis",
+    "quality": 6,
+    "sample_rate": 48000,
+    "channels": 2
+  },
+  "web": "C:\\projects\\ai\\slots-oneshots\\gates-of-olympus\\assets\\sounds\\sfx-zeus-cast.web.ogg",
+  "web_probe": {
+    "codec": "vorbis",
+    "sample_rate": 48000,
+    "channels": 2,
+    "duration_seconds": 10.005333,
+    "size_bytes": 178408,
+    "sha256": "184581a50d8e139229f8f6488e15cf72031062a7d2e96e8178422f740569acb9"
+  },
+  "usage": "max-win"
+}

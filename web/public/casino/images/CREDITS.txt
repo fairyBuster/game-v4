@@ -1,0 +1,24 @@
+Asset credits
+==============
+
+In-game sprites in assets/images/play/ and assets/images/games/ are real,
+downloaded artwork (nothing AI-generated). Sources:
+
+ * Kenney "Boardgame pack v2"        - CC0        https://kenney.nl/assets/boardgame-pack
+       dice (play/dice1-6), poker chips (games/1,2,5,10, dc_01..dc_40),
+       playing cards (games/andar, bahar)
+
+ * Kenney "Board Game Icons"         - CC0        https://kenney.nl/assets/board-game-icons
+       coin sides (games/head, games/tail), games/pachinko, games/cash_hunt,
+       games/crazy_times
+
+ * OpenGameArt "coins"               - CC0        https://opengameart.org/content/coins
+       games/coin_flip
+
+ * Wikimedia Commons, "Rock-paper-scissors (rock|paper|scissors).png"
+                                     - CC BY-SA 3.0
+       photo by Fluff, upload by Sertion
+       https://commons.wikimedia.org/wiki/File:Rock-paper-scissors_(rock).png
+       used for play/rock.png, play/paper.png, play/scissors.png
+
+Lobby thumbnails in assets/images/game/ are the original Xaxino template art.

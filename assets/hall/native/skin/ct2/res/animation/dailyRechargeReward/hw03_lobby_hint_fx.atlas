@@ -1,0 +1,13 @@
+
+hw03_lobby_hint_fx.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 2, 2
+  size: 282, 378
+  orig: 282, 378
+  offset: 0, 0
+  index: -1

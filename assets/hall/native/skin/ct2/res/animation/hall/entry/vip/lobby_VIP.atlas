@@ -1,0 +1,125 @@
+
+lobby_VIP.png
+size: 961,264
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01
+  rotate: false
+  xy: 778, 2
+  size: 73, 61
+  orig: 75, 63
+  offset: 1, 1
+  index: -1
+02
+  rotate: false
+  xy: 778, 85
+  size: 21, 21
+  orig: 25, 24
+  offset: 2, 1
+  index: -1
+particle/particle_000
+  rotate: true
+  xy: 502, 108
+  size: 154, 99
+  orig: 175, 122
+  offset: 10, 5
+  index: -1
+particle/particle_001
+  rotate: true
+  xy: 603, 108
+  size: 154, 99
+  orig: 175, 122
+  offset: 10, 5
+  index: -1
+particle/particle_002
+  rotate: false
+  xy: 313, 5
+  size: 153, 100
+  orig: 175, 122
+  offset: 11, 5
+  index: -1
+particle/particle_003
+  rotate: false
+  xy: 468, 5
+  size: 153, 100
+  orig: 175, 122
+  offset: 11, 5
+  index: -1
+particle/particle_004
+  rotate: false
+  xy: 623, 6
+  size: 153, 100
+  orig: 175, 122
+  offset: 10, 6
+  index: -1
+particle/particle_005
+  rotate: true
+  xy: 704, 108
+  size: 154, 99
+  orig: 175, 122
+  offset: 10, 7
+  index: -1
+particle/particle_006
+  rotate: true
+  xy: 2, 107
+  size: 155, 99
+  orig: 175, 122
+  offset: 9, 8
+  index: -1
+particle/particle_007
+  rotate: true
+  xy: 103, 107
+  size: 155, 99
+  orig: 175, 122
+  offset: 9, 8
+  index: -1
+particle/particle_008
+  rotate: true
+  xy: 204, 107
+  size: 155, 98
+  orig: 175, 122
+  offset: 9, 9
+  index: -1
+particle/particle_009
+  rotate: true
+  xy: 304, 107
+  size: 155, 98
+  orig: 175, 122
+  offset: 9, 10
+  index: -1
+particle/particle_010
+  rotate: false
+  xy: 805, 65
+  size: 154, 97
+  orig: 175, 122
+  offset: 9, 11
+  index: -1
+particle/particle_011
+  rotate: true
+  xy: 404, 107
+  size: 155, 96
+  orig: 175, 122
+  offset: 9, 12
+  index: -1
+particle/particle_012
+  rotate: false
+  xy: 157, 5
+  size: 154, 100
+  orig: 175, 122
+  offset: 9, 8
+  index: -1
+particle/particle_013
+  rotate: false
+  xy: 2, 4
+  size: 153, 101
+  orig: 175, 122
+  offset: 10, 6
+  index: -1
+particle/particle_014
+  rotate: false
+  xy: 805, 164
+  size: 154, 98
+  orig: 175, 122
+  offset: 10, 5
+  index: -1

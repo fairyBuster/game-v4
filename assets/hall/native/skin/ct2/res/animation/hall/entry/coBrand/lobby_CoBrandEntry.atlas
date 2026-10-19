@@ -1,0 +1,167 @@
+
+lobby_CoBrandEntry.png
+size: 882,318
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+brand_logo
+  rotate: true
+  xy: 806, 186
+  size: 130, 74
+  orig: 130, 76
+  offset: 0, 2
+  index: -1
+brand_logo_02
+  rotate: false
+  xy: 711, 39
+  size: 102, 122
+  orig: 102, 122
+  offset: 0, 0
+  index: -1
+coin_l
+  rotate: true
+  xy: 745, 3
+  size: 34, 26
+  orig: 34, 26
+  offset: 0, 0
+  index: -1
+coin_r
+  rotate: true
+  xy: 773, 3
+  size: 34, 26
+  orig: 34, 26
+  offset: 0, 0
+  index: -1
+coin_r_02
+  rotate: true
+  xy: 711, 2
+  size: 35, 32
+  orig: 35, 32
+  offset: 0, 0
+  index: -1
+particle/particle_000
+  rotate: true
+  xy: 301, 162
+  size: 154, 99
+  orig: 175, 122
+  offset: 10, 5
+  index: -1
+particle/particle_001
+  rotate: true
+  xy: 305, 6
+  size: 154, 99
+  orig: 175, 122
+  offset: 10, 5
+  index: -1
+particle/particle_002
+  rotate: true
+  xy: 602, 163
+  size: 153, 100
+  orig: 175, 122
+  offset: 11, 5
+  index: -1
+particle/particle_003
+  rotate: true
+  xy: 609, 8
+  size: 153, 100
+  orig: 175, 122
+  offset: 11, 5
+  index: -1
+particle/particle_004
+  rotate: true
+  xy: 704, 163
+  size: 153, 100
+  orig: 175, 122
+  offset: 10, 6
+  index: -1
+particle/particle_005
+  rotate: true
+  xy: 402, 162
+  size: 154, 99
+  orig: 175, 122
+  offset: 10, 7
+  index: -1
+particle/particle_006
+  rotate: true
+  xy: 2, 161
+  size: 155, 99
+  orig: 175, 122
+  offset: 9, 8
+  index: -1
+particle/particle_007
+  rotate: true
+  xy: 2, 4
+  size: 155, 99
+  orig: 175, 122
+  offset: 9, 8
+  index: -1
+particle/particle_008
+  rotate: true
+  xy: 103, 161
+  size: 155, 98
+  orig: 175, 122
+  offset: 9, 9
+  index: -1
+particle/particle_009
+  rotate: true
+  xy: 103, 4
+  size: 155, 98
+  orig: 175, 122
+  offset: 9, 10
+  index: -1
+particle/particle_010
+  rotate: true
+  xy: 503, 162
+  size: 154, 97
+  orig: 175, 122
+  offset: 9, 11
+  index: -1
+particle/particle_011
+  rotate: true
+  xy: 203, 161
+  size: 155, 96
+  orig: 175, 122
+  offset: 9, 12
+  index: -1
+particle/particle_012
+  rotate: true
+  xy: 203, 5
+  size: 154, 100
+  orig: 175, 122
+  offset: 9, 8
+  index: -1
+particle/particle_013
+  rotate: true
+  xy: 506, 7
+  size: 153, 101
+  orig: 175, 122
+  offset: 10, 6
+  index: -1
+particle/particle_014
+  rotate: true
+  xy: 406, 6
+  size: 154, 98
+  orig: 175, 122
+  offset: 10, 5
+  index: -1
+star_l
+  rotate: false
+  xy: 801, 8
+  size: 29, 29
+  orig: 32, 31
+  offset: 1, 1
+  index: -1
+star_l_02
+  rotate: true
+  xy: 806, 164
+  size: 20, 19
+  orig: 22, 21
+  offset: 1, 1
+  index: -1
+star_r
+  rotate: false
+  xy: 832, 161
+  size: 24, 23
+  orig: 26, 25
+  offset: 1, 1
+  index: -1

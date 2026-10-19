@@ -1,0 +1,118 @@
+
+lobby_ClosewindowFX.png
+size: 1703,931
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+boom/boom_01
+  rotate: false
+  xy: 2, 27
+  size: 82, 74
+  orig: 475, 452
+  offset: 191, 191
+  index: -1
+boom/boom_03
+  rotate: true
+  xy: 1018, 12
+  size: 256, 276
+  orig: 475, 452
+  offset: 126, 69
+  index: -1
+boom/boom_05
+  rotate: true
+  xy: 414, 2
+  size: 289, 299
+  orig: 475, 452
+  offset: 115, 64
+  index: -1
+boom/boom_07
+  rotate: true
+  xy: 715, 2
+  size: 294, 301
+  orig: 475, 452
+  offset: 114, 62
+  index: -1
+boom/boom_09
+  rotate: false
+  xy: 1380, 280
+  size: 312, 316
+  orig: 475, 452
+  offset: 102, 59
+  index: -1
+boom/boom_11
+  rotate: false
+  xy: 1052, 270
+  size: 326, 326
+  orig: 475, 452
+  offset: 90, 55
+  index: -1
+boom/boom_13
+  rotate: false
+  xy: 1062, 598
+  size: 337, 331
+  orig: 475, 452
+  offset: 80, 60
+  index: -1
+boom/boom_15
+  rotate: true
+  xy: 1401, 604
+  size: 325, 300
+  orig: 475, 452
+  offset: 71, 99
+  index: -1
+boom/boom_17
+  rotate: false
+  xy: 712, 298
+  size: 338, 311
+  orig: 475, 452
+  offset: 64, 95
+  index: -1
+boom/boom_19
+  rotate: false
+  xy: 712, 611
+  size: 348, 318
+  orig: 475, 452
+  offset: 58, 93
+  index: -1
+boom/boom_21
+  rotate: false
+  xy: 353, 604
+  size: 357, 325
+  orig: 475, 452
+  offset: 53, 91
+  index: -1
+boom/boom_23
+  rotate: true
+  xy: 2, 189
+  size: 364, 331
+  orig: 475, 452
+  offset: 49, 89
+  index: -1
+boom/boom_25
+  rotate: false
+  xy: 353, 293
+  size: 346, 309
+  orig: 475, 452
+  offset: 45, 108
+  index: -1
+boom/boom_27
+  rotate: false
+  xy: 1296, 67
+  size: 275, 201
+  orig: 475, 452
+  offset: 112, 106
+  index: -1
+fg01
+  rotate: false
+  xy: 2, 555
+  size: 349, 374
+  orig: 391, 413
+  offset: 21, 20
+  index: -1
+ssg
+  rotate: true
+  xy: 2, 103
+  size: 84, 410
+  orig: 98, 476
+  offset: 7, 2
+  index: -1

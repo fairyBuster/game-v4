@@ -1,0 +1,223 @@
+
+hw03_lobby_iconfirst.png
+size: 268,535
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gift_fx/gift_fx_00
+  rotate: false
+  xy: 202, 462
+  size: 65, 73
+  orig: 94, 101
+  offset: 15, 17
+  index: -1
+gift_fx/gift_fx_01
+  rotate: false
+  xy: 0, 286
+  size: 65, 73
+  orig: 94, 101
+  offset: 15, 18
+  index: -1
+gift_fx/gift_fx_02
+  rotate: false
+  xy: 135, 461
+  size: 65, 74
+  orig: 94, 101
+  offset: 15, 18
+  index: -1
+gift_fx/gift_fx_03
+  rotate: false
+  xy: 0, 63
+  size: 65, 71
+  orig: 94, 101
+  offset: 15, 20
+  index: -1
+gift_fx/gift_fx_04
+  rotate: false
+  xy: 135, 388
+  size: 65, 71
+  orig: 94, 101
+  offset: 15, 21
+  index: -1
+gift_fx/gift_fx_05
+  rotate: true
+  xy: 202, 184
+  size: 65, 51
+  orig: 94, 101
+  offset: 15, 22
+  index: -1
+gift_fx/gift_fx_06
+  rotate: false
+  xy: 198, 131
+  size: 65, 51
+  orig: 94, 101
+  offset: 15, 23
+  index: -1
+gift_fx/gift_fx_07
+  rotate: true
+  xy: 67, 115
+  size: 65, 50
+  orig: 94, 101
+  offset: 15, 25
+  index: -1
+gift_fx/gift_fx_08
+  rotate: false
+  xy: 67, 0
+  size: 65, 46
+  orig: 94, 101
+  offset: 15, 25
+  index: -1
+gift_fx/gift_fx_09
+  rotate: true
+  xy: 67, 48
+  size: 65, 50
+  orig: 94, 101
+  offset: 15, 27
+  index: -1
+gift_fx/gift_fx_10
+  rotate: true
+  xy: 207, 251
+  size: 65, 53
+  orig: 94, 101
+  offset: 15, 25
+  index: -1
+gift_fx/gift_fx_11
+  rotate: false
+  xy: 119, 86
+  size: 65, 50
+  orig: 94, 101
+  offset: 15, 27
+  index: -1
+gift_fx/gift_fx_12
+  rotate: false
+  xy: 67, 254
+  size: 66, 50
+  orig: 94, 101
+  offset: 14, 28
+  index: -1
+gift_fx/gift_fx_13
+  rotate: false
+  xy: 130, 138
+  size: 66, 49
+  orig: 94, 101
+  offset: 14, 30
+  index: -1
+gift_fx/gift_fx_14
+  rotate: false
+  xy: 186, 81
+  size: 66, 48
+  orig: 94, 101
+  offset: 14, 32
+  index: -1
+gift_fx/gift_fx_15
+  rotate: true
+  xy: 134, 18
+  size: 66, 49
+  orig: 94, 101
+  offset: 14, 33
+  index: -1
+gift_fx/gift_fx_16
+  rotate: false
+  xy: 185, 31
+  size: 66, 48
+  orig: 94, 101
+  offset: 14, 34
+  index: -1
+gift_fx/gift_fx_17
+  rotate: false
+  xy: 202, 389
+  size: 66, 71
+  orig: 94, 101
+  offset: 14, 13
+  index: -1
+gift_fx/gift_fx_18
+  rotate: false
+  xy: 66, 182
+  size: 62, 70
+  orig: 94, 101
+  offset: 14, 15
+  index: -1
+gift_fx/gift_fx_19
+  rotate: true
+  xy: 135, 253
+  size: 62, 70
+  orig: 94, 101
+  offset: 14, 16
+  index: -1
+gift_fx/gift_fx_20
+  rotate: true
+  xy: 130, 189
+  size: 62, 70
+  orig: 94, 101
+  offset: 14, 18
+  index: -1
+gift_fx/gift_fx_21
+  rotate: false
+  xy: 135, 317
+  size: 66, 69
+  orig: 94, 101
+  offset: 14, 20
+  index: -1
+gift_fx/gift_fx_22
+  rotate: false
+  xy: 67, 306
+  size: 66, 70
+  orig: 94, 101
+  offset: 14, 21
+  index: -1
+gift_fx/gift_fx_23
+  rotate: false
+  xy: 66, 378
+  size: 67, 69
+  orig: 94, 101
+  offset: 13, 23
+  index: -1
+gift_fx/gift_fx_24
+  rotate: false
+  xy: 203, 318
+  size: 64, 69
+  orig: 94, 101
+  offset: 16, 25
+  index: -1
+gift_fx/gift_fx_25
+  rotate: false
+  xy: 0, 449
+  size: 67, 86
+  orig: 94, 101
+  offset: 13, 9
+  index: -1
+gift_fx/gift_fx_26
+  rotate: false
+  xy: 0, 361
+  size: 64, 86
+  orig: 94, 101
+  offset: 16, 11
+  index: -1
+gift_fx/gift_fx_27
+  rotate: false
+  xy: 69, 450
+  size: 64, 85
+  orig: 94, 101
+  offset: 16, 13
+  index: -1
+gift_fx/gift_fx_28
+  rotate: false
+  xy: 0, 211
+  size: 64, 73
+  orig: 94, 101
+  offset: 16, 14
+  index: -1
+gift_fx/gift_fx_29
+  rotate: false
+  xy: 0, 136
+  size: 64, 73
+  orig: 94, 101
+  offset: 16, 15
+  index: -1
+hz
+  rotate: true
+  xy: 0, 1
+  size: 60, 65
+  orig: 61, 66
+  offset: 1, 1
+  index: -1

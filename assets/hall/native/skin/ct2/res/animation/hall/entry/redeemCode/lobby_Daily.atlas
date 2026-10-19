@@ -1,0 +1,62 @@
+
+lobby_Daily.png
+size: 92,397
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+w1
+  rotate: false
+  xy: 2, 186
+  size: 88, 67
+  orig: 90, 69
+  offset: 1, 1
+  index: -1
+w2
+  rotate: false
+  xy: 2, 111
+  size: 85, 73
+  orig: 87, 75
+  offset: 1, 1
+  index: -1
+w3
+  rotate: true
+  xy: 41, 300
+  size: 59, 46
+  orig: 59, 47
+  offset: 0, 1
+  index: -1
+w4
+  rotate: false
+  xy: 2, 255
+  size: 62, 43
+  orig: 62, 44
+  offset: 0, 1
+  index: -1
+w5
+  rotate: true
+  xy: 2, 2
+  size: 107, 88
+  orig: 109, 90
+  offset: 1, 1
+  index: -1
+xing1
+  rotate: false
+  xy: 2, 364
+  size: 31, 31
+  orig: 35, 35
+  offset: 2, 2
+  index: -1
+xing2
+  rotate: false
+  xy: 35, 361
+  size: 34, 34
+  orig: 37, 38
+  offset: 1, 2
+  index: -1
+xing3
+  rotate: false
+  xy: 2, 322
+  size: 37, 37
+  orig: 41, 41
+  offset: 2, 2
+  index: -1

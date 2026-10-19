@@ -1,0 +1,153 @@
+
+lobby_BonusHarian.png
+size: 772,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+particle/particle_000
+  rotate: false
+  xy: 2, 264
+  size: 175, 122
+  orig: 175, 122
+  offset: 0, 0
+  index: -1
+particle/particle_001
+  rotate: false
+  xy: 179, 388
+  size: 175, 122
+  orig: 175, 122
+  offset: 0, 0
+  index: -1
+particle/particle_002
+  rotate: false
+  xy: 2, 140
+  size: 175, 122
+  orig: 175, 122
+  offset: 0, 0
+  index: -1
+particle/particle_003
+  rotate: false
+  xy: 179, 264
+  size: 175, 122
+  orig: 175, 122
+  offset: 0, 0
+  index: -1
+particle/particle_004
+  rotate: false
+  xy: 356, 388
+  size: 175, 122
+  orig: 175, 122
+  offset: 0, 0
+  index: -1
+particle/particle_005
+  rotate: false
+  xy: 2, 16
+  size: 175, 122
+  orig: 175, 122
+  offset: 0, 0
+  index: -1
+particle/particle_006
+  rotate: false
+  xy: 179, 140
+  size: 175, 122
+  orig: 175, 122
+  offset: 0, 0
+  index: -1
+particle/particle_007
+  rotate: false
+  xy: 356, 264
+  size: 175, 122
+  orig: 175, 122
+  offset: 0, 0
+  index: -1
+particle/particle_008
+  rotate: false
+  xy: 533, 388
+  size: 175, 122
+  orig: 175, 122
+  offset: 0, 0
+  index: -1
+particle/particle_009
+  rotate: false
+  xy: 179, 16
+  size: 175, 122
+  orig: 175, 122
+  offset: 0, 0
+  index: -1
+particle/particle_010
+  rotate: false
+  xy: 356, 140
+  size: 175, 122
+  orig: 175, 122
+  offset: 0, 0
+  index: -1
+particle/particle_011
+  rotate: false
+  xy: 533, 264
+  size: 175, 122
+  orig: 175, 122
+  offset: 0, 0
+  index: -1
+particle/particle_012
+  rotate: false
+  xy: 356, 16
+  size: 175, 122
+  orig: 175, 122
+  offset: 0, 0
+  index: -1
+particle/particle_013
+  rotate: false
+  xy: 533, 140
+  size: 175, 122
+  orig: 175, 122
+  offset: 0, 0
+  index: -1
+particle/particle_014
+  rotate: false
+  xy: 2, 388
+  size: 175, 122
+  orig: 175, 122
+  offset: 0, 0
+  index: -1
+qq1
+  rotate: false
+  xy: 710, 395
+  size: 54, 46
+  orig: 54, 46
+  offset: 0, 0
+  index: -1
+qq2
+  rotate: false
+  xy: 710, 364
+  size: 30, 29
+  orig: 30, 29
+  offset: 0, 0
+  index: -1
+qq3
+  rotate: false
+  xy: 687, 8
+  size: 34, 30
+  orig: 34, 30
+  offset: 0, 0
+  index: -1
+qq4
+  rotate: false
+  xy: 710, 443
+  size: 60, 67
+  orig: 60, 67
+  offset: 0, 0
+  index: -1
+qq5
+  rotate: true
+  xy: 687, 40
+  size: 98, 83
+  orig: 98, 83
+  offset: 0, 0
+  index: -1
+qq6
+  rotate: true
+  xy: 533, 2
+  size: 136, 152
+  orig: 136, 152
+  offset: 0, 0
+  index: -1

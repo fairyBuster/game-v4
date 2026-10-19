@@ -1,0 +1,118 @@
+
+lobby_LoginRewards.png
+size: 711,536
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dk
+  rotate: true
+  xy: 0, 420
+  size: 116, 162
+  orig: 116, 162
+  offset: 0, 0
+  index: -1
+zg01/zg01_01
+  rotate: true
+  xy: 160, 274
+  size: 132, 180
+  orig: 284, 279
+  offset: 77, 44
+  index: -1
+zg01/zg01_03
+  rotate: true
+  xy: 342, 274
+  size: 132, 181
+  orig: 284, 279
+  offset: 77, 43
+  index: -1
+zg01/zg01_05
+  rotate: true
+  xy: 525, 272
+  size: 132, 181
+  orig: 284, 279
+  offset: 77, 43
+  index: -1
+zg01/zg01_07
+  rotate: true
+  xy: 530, 406
+  size: 130, 181
+  orig: 284, 279
+  offset: 78, 43
+  index: -1
+zg01/zg01_09
+  rotate: true
+  xy: 164, 408
+  size: 128, 181
+  orig: 284, 279
+  offset: 79, 43
+  index: -1
+zg01/zg01_11
+  rotate: true
+  xy: 347, 408
+  size: 128, 181
+  orig: 284, 279
+  offset: 80, 43
+  index: -1
+zg01/zg01_13
+  rotate: true
+  xy: 0, 138
+  size: 134, 179
+  orig: 284, 279
+  offset: 76, 44
+  index: -1
+zg01/zg01_15
+  rotate: true
+  xy: 181, 138
+  size: 134, 179
+  orig: 284, 279
+  offset: 76, 44
+  index: -1
+zg01/zg01_17
+  rotate: true
+  xy: 362, 136
+  size: 134, 178
+  orig: 284, 279
+  offset: 76, 45
+  index: -1
+zg01/zg01_19
+  rotate: true
+  xy: 0, 2
+  size: 134, 177
+  orig: 284, 279
+  offset: 76, 45
+  index: -1
+zg01/zg01_21
+  rotate: true
+  xy: 179, 2
+  size: 134, 175
+  orig: 284, 279
+  offset: 76, 46
+  index: -1
+zg01/zg01_23
+  rotate: true
+  xy: 356, 0
+  size: 134, 172
+  orig: 284, 279
+  offset: 76, 48
+  index: -1
+zg01/zg01_25
+  rotate: true
+  xy: 542, 136
+  size: 134, 165
+  orig: 284, 279
+  offset: 76, 53
+  index: -1
+zg01/zg01_27
+  rotate: true
+  xy: 0, 284
+  size: 134, 158
+  orig: 284, 279
+  offset: 76, 58
+  index: -1
+zg01/zg01_29
+  rotate: true
+  xy: 530, 0
+  size: 134, 175
+  orig: 284, 279
+  offset: 76, 48
+  index: -1

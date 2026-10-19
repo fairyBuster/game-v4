@@ -1,0 +1,40 @@
+{
+  "created_at": "2026-07-20T17:31:35.793942+00:00",
+  "kind": "sound-effect",
+  "master": "C:\\projects\\ai\\slots-oneshots\\gates-of-olympus\\assets\\sounds\\feature-start.master.mp3",
+  "master_probe": {
+    "bit_rate": 135476,
+    "channel_layout": "stereo",
+    "channels": 2,
+    "codec": "mp3",
+    "duration_seconds": 1.36,
+    "sample_rate": 44100
+  },
+  "normalization": {
+    "applied_gain_db": -0.7,
+    "source_max_volume_db": -0.3,
+    "target_peak_db": -1.0
+  },
+  "output_format": "mp3_44100_128",
+  "request": {
+    "duration_seconds": 1.4,
+    "loop": false,
+    "model_id": "eleven_text_to_sound_v2",
+    "prompt_influence": 0.3,
+    "text": "attention-grabbing feature activation sting, quick riser into a bright impact, no voice, epic Greek mythology, Mount Olympus divine thunder, orchestral fantasy casino style"
+  },
+  "response": {
+    "character-cost": "14",
+    "content-type": "audio/mpeg",
+    "x-trace-id": "706160bce716300b7eebf51caefceb15"
+  },
+  "web": "C:\\projects\\ai\\slots-oneshots\\gates-of-olympus\\assets\\sounds\\feature-start.web.ogg",
+  "web_probe": {
+    "bit_rate": 96216,
+    "channel_layout": "stereo",
+    "channels": 2,
+    "codec": "opus",
+    "duration_seconds": 1.3665,
+    "sample_rate": 48000
+  }
+}

@@ -1,0 +1,307 @@
+
+lobby_redenveloperain.png
+size: 554,1032
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+a1
+  rotate: true
+  xy: 109, 84
+  size: 308, 77
+  orig: 310, 78
+  offset: 0, 1
+  index: -1
+a10
+  rotate: true
+  xy: 365, 823
+  size: 207, 116
+  orig: 208, 116
+  offset: 1, 0
+  index: -1
+a11
+  rotate: false
+  xy: 361, 562
+  size: 116, 123
+  orig: 117, 124
+  offset: 0, 0
+  index: -1
+a12
+  rotate: true
+  xy: 481, 687
+  size: 130, 59
+  orig: 132, 60
+  offset: 1, 0
+  index: -1
+a13
+  rotate: true
+  xy: 278, 565
+  size: 283, 81
+  orig: 294, 86
+  offset: 7, 5
+  index: -1
+a14
+  rotate: false
+  xy: 2, 599
+  size: 274, 249
+  orig: 274, 259
+  offset: 0, 0
+  index: -1
+a15
+  rotate: true
+  xy: 2, 74
+  size: 318, 105
+  orig: 318, 105
+  offset: 0, 0
+  index: -1
+a16
+  rotate: true
+  xy: 188, 81
+  size: 311, 61
+  orig: 315, 62
+  offset: 3, 0
+  index: -1
+a17
+  rotate: false
+  xy: 436, 53
+  size: 54, 56
+  orig: 58, 56
+  offset: 0, 0
+  index: -1
+a19
+  rotate: false
+  xy: 2, 850
+  size: 361, 180
+  orig: 363, 184
+  offset: 1, 2
+  index: -1
+a20
+  rotate: true
+  xy: 109, 2
+  size: 80, 42
+  orig: 82, 45
+  offset: 2, 3
+  index: -1
+a21
+  rotate: true
+  xy: 251, 155
+  size: 114, 100
+  orig: 115, 101
+  offset: 1, 1
+  index: -1
+a22
+  rotate: true
+  xy: 532, 275
+  size: 48, 20
+  orig: 50, 22
+  offset: 1, 1
+  index: -1
+a23
+  rotate: false
+  xy: 355, 463
+  size: 148, 97
+  orig: 213, 145
+  offset: 33, 45
+  index: -1
+a24
+  rotate: false
+  xy: 512, 26
+  size: 19, 25
+  orig: 20, 25
+  offset: 1, 0
+  index: -1
+a25
+  rotate: true
+  xy: 473, 25
+  size: 26, 37
+  orig: 26, 38
+  offset: 0, 0
+  index: -1
+a26
+  rotate: false
+  xy: 436, 22
+  size: 35, 29
+  orig: 36, 29
+  offset: 0, 0
+  index: -1
+a27
+  rotate: true
+  xy: 532, 239
+  size: 34, 19
+  orig: 34, 20
+  offset: 0, 0
+  index: -1
+a28
+  rotate: true
+  xy: 532, 216
+  size: 21, 17
+  orig: 21, 17
+  offset: 0, 0
+  index: -1
+a29
+  rotate: true
+  xy: 436, 6
+  size: 14, 21
+  orig: 14, 21
+  offset: 0, 0
+  index: -1
+a3
+  rotate: false
+  xy: 492, 53
+  size: 53, 56
+  orig: 57, 57
+  offset: 4, 1
+  index: -1
+a4
+  rotate: false
+  xy: 2, 394
+  size: 270, 203
+  orig: 270, 204
+  offset: 0, 0
+  index: -1
+a5
+  rotate: false
+  xy: 274, 468
+  size: 79, 95
+  orig: 102, 126
+  offset: 11, 15
+  index: -1
+a6
+  rotate: false
+  xy: 361, 687
+  size: 118, 134
+  orig: 118, 134
+  offset: 0, 0
+  index: -1
+a7
+  rotate: false
+  xy: 251, 271
+  size: 101, 121
+  orig: 102, 122
+  offset: 1, 1
+  index: -1
+a8
+  rotate: false
+  xy: 462, 325
+  size: 90, 66
+  orig: 91, 66
+  offset: 1, 0
+  index: -1
+a9
+  rotate: false
+  xy: 479, 625
+  size: 73, 60
+  orig: 74, 61
+  offset: 0, 0
+  index: -1
+particle/particle_00000
+  rotate: true
+  xy: 463, 111
+  size: 105, 67
+  orig: 120, 84
+  offset: 7, 4
+  index: -1
+particle/particle_00001
+  rotate: false
+  xy: 2, 4
+  size: 105, 68
+  orig: 120, 84
+  offset: 7, 4
+  index: -1
+particle/particle_00002
+  rotate: false
+  xy: 251, 85
+  size: 104, 68
+  orig: 120, 84
+  offset: 8, 4
+  index: -1
+particle/particle_00003
+  rotate: false
+  xy: 357, 114
+  size: 104, 68
+  orig: 120, 84
+  offset: 8, 4
+  index: -1
+particle/particle_00004
+  rotate: true
+  xy: 483, 819
+  size: 104, 69
+  orig: 120, 84
+  offset: 8, 4
+  index: -1
+particle/particle_00005
+  rotate: false
+  xy: 353, 184
+  size: 105, 68
+  orig: 120, 84
+  offset: 7, 5
+  index: -1
+particle/particle_00006
+  rotate: false
+  xy: 382, 393
+  size: 106, 68
+  orig: 120, 84
+  offset: 6, 5
+  index: -1
+particle/particle_00007
+  rotate: false
+  xy: 354, 323
+  size: 106, 68
+  orig: 120, 84
+  offset: 6, 6
+  index: -1
+particle/particle_00008
+  rotate: false
+  xy: 274, 394
+  size: 106, 67
+  orig: 120, 84
+  offset: 6, 7
+  index: -1
+particle/particle_00009
+  rotate: false
+  xy: 354, 254
+  size: 106, 67
+  orig: 120, 84
+  offset: 6, 7
+  index: -1
+particle/particle_00010
+  rotate: false
+  xy: 260, 17
+  size: 106, 66
+  orig: 120, 84
+  offset: 6, 8
+  index: -1
+particle/particle_00011
+  rotate: true
+  xy: 368, 6
+  size: 106, 66
+  orig: 120, 84
+  offset: 6, 8
+  index: -1
+particle/particle_00012
+  rotate: true
+  xy: 462, 218
+  size: 105, 68
+  orig: 120, 84
+  offset: 7, 6
+  index: -1
+particle/particle_00013
+  rotate: true
+  xy: 483, 925
+  size: 105, 69
+  orig: 120, 84
+  offset: 7, 4
+  index: -1
+particle/particle_00014
+  rotate: false
+  xy: 153, 12
+  size: 105, 67
+  orig: 120, 84
+  offset: 7, 4
+  index: -1
+xx
+  rotate: false
+  xy: 479, 565
+  size: 58, 58
+  orig: 70, 68
+  offset: 6, 5
+  index: -1

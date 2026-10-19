@@ -1,0 +1,27 @@
+
+lobby_givegold.png
+size: 208,399
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: true
+  xy: 2, 57
+  size: 340, 113
+  orig: 340, 113
+  offset: 0, 0
+  index: -1
+bg2
+  rotate: true
+  xy: 117, 58
+  size: 339, 89
+  orig: 339, 89
+  offset: 0, 0
+  index: -1
+xx
+  rotate: true
+  xy: 117, 2
+  size: 54, 55
+  orig: 56, 62
+  offset: 0, 4
+  index: -1

@@ -1,0 +1,125 @@
+
+lobby_Rescue.png
+size: 726,505
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+j1
+  rotate: false
+  xy: 533, 2
+  size: 137, 129
+  orig: 137, 129
+  offset: 0, 0
+  index: -1
+particle/particle_000
+  rotate: false
+  xy: 2, 257
+  size: 175, 122
+  orig: 175, 122
+  offset: 0, 0
+  index: -1
+particle/particle_001
+  rotate: false
+  xy: 179, 381
+  size: 175, 122
+  orig: 175, 122
+  offset: 0, 0
+  index: -1
+particle/particle_002
+  rotate: false
+  xy: 2, 133
+  size: 175, 122
+  orig: 175, 122
+  offset: 0, 0
+  index: -1
+particle/particle_003
+  rotate: false
+  xy: 179, 257
+  size: 175, 122
+  orig: 175, 122
+  offset: 0, 0
+  index: -1
+particle/particle_004
+  rotate: false
+  xy: 356, 381
+  size: 175, 122
+  orig: 175, 122
+  offset: 0, 0
+  index: -1
+particle/particle_005
+  rotate: false
+  xy: 2, 9
+  size: 175, 122
+  orig: 175, 122
+  offset: 0, 0
+  index: -1
+particle/particle_006
+  rotate: false
+  xy: 179, 133
+  size: 175, 122
+  orig: 175, 122
+  offset: 0, 0
+  index: -1
+particle/particle_007
+  rotate: false
+  xy: 356, 257
+  size: 175, 122
+  orig: 175, 122
+  offset: 0, 0
+  index: -1
+particle/particle_008
+  rotate: false
+  xy: 533, 381
+  size: 175, 122
+  orig: 175, 122
+  offset: 0, 0
+  index: -1
+particle/particle_009
+  rotate: false
+  xy: 179, 9
+  size: 175, 122
+  orig: 175, 122
+  offset: 0, 0
+  index: -1
+particle/particle_010
+  rotate: false
+  xy: 356, 133
+  size: 175, 122
+  orig: 175, 122
+  offset: 0, 0
+  index: -1
+particle/particle_011
+  rotate: false
+  xy: 533, 257
+  size: 175, 122
+  orig: 175, 122
+  offset: 0, 0
+  index: -1
+particle/particle_012
+  rotate: false
+  xy: 356, 9
+  size: 175, 122
+  orig: 175, 122
+  offset: 0, 0
+  index: -1
+particle/particle_013
+  rotate: false
+  xy: 533, 133
+  size: 175, 122
+  orig: 175, 122
+  offset: 0, 0
+  index: -1
+particle/particle_014
+  rotate: false
+  xy: 2, 381
+  size: 175, 122
+  orig: 175, 122
+  offset: 0, 0
+  index: -1
+ty
+  rotate: false
+  xy: 672, 75
+  size: 52, 56
+  orig: 52, 56
+  offset: 0, 0
+  index: -1

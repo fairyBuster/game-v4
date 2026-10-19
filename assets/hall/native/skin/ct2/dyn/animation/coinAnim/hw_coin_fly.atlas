@@ -1,0 +1,83 @@
+
+hw_coin_fly.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jinbi_00000
+  rotate: false
+  xy: 644, 30
+  size: 46, 84
+  orig: 122, 118
+  offset: 37, 16
+  index: -1
+jinbi_00001
+  rotate: true
+  xy: 2, 2
+  size: 24, 84
+  orig: 122, 118
+  offset: 48, 16
+  index: -1
+jinbi_000010
+  rotate: false
+  xy: 578, 30
+  size: 64, 84
+  orig: 122, 118
+  offset: 28, 16
+  index: -1
+jinbi_00002
+  rotate: false
+  xy: 692, 30
+  size: 46, 84
+  orig: 122, 118
+  offset: 37, 16
+  index: -1
+jinbi_00003
+  rotate: false
+  xy: 512, 30
+  size: 64, 84
+  orig: 122, 118
+  offset: 28, 16
+  index: -1
+jinbi_00004
+  rotate: false
+  xy: 352, 28
+  size: 78, 86
+  orig: 122, 118
+  offset: 21, 15
+  index: -1
+jinbi_00005
+  rotate: false
+  xy: 2, 28
+  size: 86, 86
+  orig: 122, 118
+  offset: 17, 15
+  index: -1
+jinbi_00006
+  rotate: false
+  xy: 90, 28
+  size: 86, 86
+  orig: 122, 118
+  offset: 17, 15
+  index: -1
+jinbi_00007
+  rotate: false
+  xy: 178, 28
+  size: 86, 86
+  orig: 122, 118
+  offset: 17, 15
+  index: -1
+jinbi_00008
+  rotate: false
+  xy: 266, 28
+  size: 84, 86
+  orig: 122, 118
+  offset: 18, 15
+  index: -1
+jinbi_00009
+  rotate: false
+  xy: 432, 30
+  size: 78, 84
+  orig: 122, 118
+  offset: 21, 16
+  index: -1

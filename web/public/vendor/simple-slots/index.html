@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slot Games Library - Premium Casino Games Collection</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="library-styles.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="logo">
+                <a href="#">
+                    <img src="themes/gemstones/images/diamond.png" alt="LuckySpins Casino">
+                    <span>LuckySpins</span>
+                </a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Games</a></li>
+                <li class="nav-item"><a href="#" class="nav-link active">Promotions</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">VIP Club</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Support</a></li>
+            </ul>
+            <div class="user-actions">
+                <button class="btn login-btn">Login</button>
+                <button class="btn signup-btn">Sign Up</button>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Featured Game Banner -->
+    <section class="featured-banner">
+        <div class="featured-content">
+            <div class="featured-info">
+                <h2>Featured Game</h2>
+                <h1>Gemstones Jackpot</h1>
+                <p>Discover the dazzling world of precious gems with stunning visuals and multiple ways to win big!</p>
+                <div class="banner-cta">
+                    <button class="play-now">Play Now</button>
+                    <!--<button class="learn-more">Learn More</button>-->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Games Library Section -->
+    <section class="games-library">
+        <div class="library-header">
+            <h2>Our Premium Slot Collection</h2>
+            <div class="search-container">
+                <input type="text" id="game-search" placeholder="Search games...">
+                <button id="search-btn"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+
+        <div class="filter-bar">
+            <button class="filter-btn active" data-filter="all">All Games</button>
+            <button class="filter-btn" data-filter="new">New Releases</button>
+            <button class="filter-btn" data-filter="popular">Most Popular</button>
+            <button class="filter-btn" data-filter="jackpot">Jackpot Games</button>
+        </div>
+
+        <div class="games-grid" id="games-container">
+            <!-- Game cards will be added here dynamically -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h3>About LuckySpins</h3>
+                <p>Experience the thrill of premium slot games with stunning graphics and exciting gameplay.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-section links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Responsible Gaming</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-envelope"></i> support@luckyspins.com</p>
+                <p><i class="fas fa-phone"></i> +1-888-LUCKY-777</p>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Fortune Lane, Vegas City</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 LuckySpins Casino. All rights reserved.</p>
+            <div class="payment-methods">
+                <i class="fab fa-cc-visa"></i>
+                <i class="fab fa-cc-mastercard"></i>
+                <i class="fab fa-cc-paypal"></i>
+                <i class="fab fa-bitcoin"></i>
+            </div>
+        </div>
+    </footer>
+
+    <script src="library-script.js"></script>
+</body>
+
+</html>

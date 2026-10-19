@@ -1,0 +1,69 @@
+
+lobby_CoinBubbleFx.png
+size: 208,93
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+db
+  rotate: false
+  xy: 84, 17
+  size: 70, 74
+  orig: 72, 75
+  offset: 1, 1
+  index: -1
+jb
+  rotate: false
+  xy: 156, 62
+  size: 45, 29
+  orig: 47, 29
+  offset: 0, 0
+  index: -1
+jb_sweep/sweep_002
+  rotate: true
+  xy: 84, 3
+  size: 12, 24
+  orig: 47, 29
+  offset: 0, 2
+  index: -1
+jb_sweep/sweep_003
+  rotate: false
+  xy: 184, 2
+  size: 22, 28
+  orig: 47, 29
+  offset: 0, 1
+  index: -1
+jb_sweep/sweep_004
+  rotate: false
+  xy: 156, 2
+  size: 26, 28
+  orig: 47, 29
+  offset: 6, 1
+  index: -1
+jb_sweep/sweep_005
+  rotate: false
+  xy: 156, 32
+  size: 27, 28
+  orig: 47, 29
+  offset: 15, 1
+  index: -1
+jb_sweep/sweep_006
+  rotate: false
+  xy: 185, 39
+  size: 17, 21
+  orig: 47, 29
+  offset: 28, 1
+  index: -1
+jb_sweep/sweep_007
+  rotate: false
+  xy: 110, 3
+  size: 8, 12
+  orig: 47, 29
+  offset: 38, 7
+  index: -1
+star_r
+  rotate: true
+  xy: 2, 10
+  size: 81, 80
+  orig: 98, 84
+  offset: 9, 3
+  index: -1

@@ -1,0 +1,104 @@
+
+lobby_rpr_begins.png
+size: 1138,578
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+a10
+  rotate: true
+  xy: 321, 105
+  size: 471, 217
+  orig: 473, 219
+  offset: 1, 1
+  index: -1
+a11
+  rotate: false
+  xy: 521, 14
+  size: 152, 89
+  orig: 157, 93
+  offset: 3, 2
+  index: -1
+a12
+  rotate: false
+  xy: 675, 11
+  size: 197, 254
+  orig: 256, 256
+  offset: 5, 1
+  index: -1
+a13
+  rotate: false
+  xy: 454, 11
+  size: 65, 92
+  orig: 71, 102
+  offset: 2, 2
+  index: -1
+a14
+  rotate: false
+  xy: 944, 2
+  size: 64, 133
+  orig: 78, 146
+  offset: 5, 2
+  index: -1
+a15
+  rotate: false
+  xy: 874, 124
+  size: 68, 141
+  orig: 84, 145
+  offset: 11, 2
+  index: -1
+a2
+  rotate: true
+  xy: 2, 12
+  size: 564, 317
+  orig: 584, 319
+  offset: 9, 1
+  index: -1
+a3
+  rotate: true
+  xy: 540, 122
+  size: 454, 115
+  orig: 469, 139
+  offset: 3, 19
+  index: -1
+a4
+  rotate: true
+  xy: 944, 137
+  size: 142, 182
+  orig: 173, 185
+  offset: 2, 2
+  index: -1
+a5
+  rotate: true
+  xy: 944, 434
+  size: 142, 192
+  orig: 182, 195
+  offset: 1, 1
+  index: -1
+a6
+  rotate: true
+  xy: 944, 281
+  size: 151, 182
+  orig: 155, 210
+  offset: 2, 26
+  index: -1
+a7
+  rotate: true
+  xy: 321, 10
+  size: 93, 131
+  orig: 95, 134
+  offset: 1, 2
+  index: -1
+a8
+  rotate: false
+  xy: 1010, 15
+  size: 103, 120
+  orig: 106, 123
+  offset: 1, 2
+  index: -1
+a9
+  rotate: false
+  xy: 657, 267
+  size: 285, 309
+  orig: 312, 355
+  offset: 18, 1
+  index: -1

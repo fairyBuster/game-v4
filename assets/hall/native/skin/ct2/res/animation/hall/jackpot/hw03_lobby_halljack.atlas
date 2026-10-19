@@ -1,0 +1,111 @@
+
+hw03_lobby_halljack.png
+size: 238,342
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jackpot/jackpot_00
+  rotate: true
+  xy: 2, 145
+  size: 141, 35
+  orig: 141, 35
+  offset: 0, 0
+  index: -1
+jackpot/jackpot_01
+  rotate: true
+  xy: 39, 145
+  size: 141, 35
+  orig: 141, 35
+  offset: 0, 0
+  index: -1
+jackpot/jackpot_02
+  rotate: true
+  xy: 76, 145
+  size: 141, 35
+  orig: 141, 35
+  offset: 0, 0
+  index: -1
+jackpot/jackpot_03
+  rotate: true
+  xy: 113, 145
+  size: 141, 35
+  orig: 141, 35
+  offset: 0, 0
+  index: -1
+jackpot/jackpot_04
+  rotate: true
+  xy: 150, 145
+  size: 141, 35
+  orig: 141, 35
+  offset: 0, 0
+  index: -1
+jackpot/jackpot_05
+  rotate: true
+  xy: 187, 60
+  size: 141, 35
+  orig: 141, 35
+  offset: 0, 0
+  index: -1
+jackpot/jackpot_06
+  rotate: true
+  xy: 2, 2
+  size: 141, 35
+  orig: 141, 35
+  offset: 0, 0
+  index: -1
+jackpot/jackpot_07
+  rotate: true
+  xy: 39, 2
+  size: 141, 35
+  orig: 141, 35
+  offset: 0, 0
+  index: -1
+jackpot/jackpot_08
+  rotate: true
+  xy: 76, 2
+  size: 141, 35
+  orig: 141, 35
+  offset: 0, 0
+  index: -1
+jackpot/jackpot_09
+  rotate: true
+  xy: 113, 2
+  size: 141, 35
+  orig: 141, 35
+  offset: 0, 0
+  index: -1
+jackpot2
+  rotate: false
+  xy: 2, 288
+  size: 196, 52
+  orig: 196, 52
+  offset: 0, 0
+  index: -1
+jackpot3
+  rotate: true
+  xy: 200, 203
+  size: 137, 36
+  orig: 137, 36
+  offset: 0, 0
+  index: -1
+jkx1
+  rotate: true
+  xy: 150, 83
+  size: 31, 18
+  orig: 31, 18
+  offset: 0, 0
+  index: -1
+jkx2
+  rotate: true
+  xy: 150, 51
+  size: 30, 14
+  orig: 30, 14
+  offset: 0, 0
+  index: -1
+jkx3
+  rotate: true
+  xy: 150, 116
+  size: 27, 24
+  orig: 27, 24
+  offset: 0, 0
+  index: -1

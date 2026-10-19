@@ -1,0 +1,10 @@
+{
+  "name": "dy01-server",
+  "private": true,
+  "type": "module",
+  "description": "One backend for the DY01 clone: auth, wallet, game spins (same JS engines the UI uses), admin, static dist. Zero deps.",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node casino.test.js && node test.js"
+  }
+}

@@ -1,0 +1,20 @@
+
+hw03_lobby_dciturntablew.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fsg4
+  rotate: false
+  xy: 559, 356
+  size: 191, 141
+  orig: 191, 141
+  offset: 0, 0
+  index: -1
+hw03_lobby_turnle_3
+  rotate: false
+  xy: 2, 2
+  size: 555, 495
+  orig: 555, 495
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,62 @@
+
+hw03_lobby_joinus.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg_p
+  rotate: true
+  xy: 160, 2
+  size: 105, 136
+  orig: 105, 136
+  offset: 0, 0
+  index: -1
+dh
+  rotate: false
+  xy: 372, 41
+  size: 66, 66
+  orig: 70, 70
+  offset: 2, 2
+  index: -1
+ep
+  rotate: false
+  xy: 2, 6
+  size: 156, 101
+  orig: 158, 102
+  offset: 1, 1
+  index: -1
+f
+  rotate: false
+  xy: 510, 44
+  size: 65, 63
+  orig: 70, 67
+  offset: 2, 2
+  index: -1
+tw
+  rotate: false
+  xy: 656, 75
+  size: 74, 32
+  orig: 74, 32
+  offset: 0, 0
+  index: -1
+tw2
+  rotate: false
+  xy: 577, 65
+  size: 77, 42
+  orig: 78, 42
+  offset: 1, 0
+  index: -1
+weixin
+  rotate: false
+  xy: 440, 46
+  size: 68, 61
+  orig: 72, 65
+  offset: 2, 2
+  index: -1
+xinxi
+  rotate: false
+  xy: 298, 21
+  size: 72, 86
+  orig: 72, 86
+  offset: 0, 0
+  index: -1

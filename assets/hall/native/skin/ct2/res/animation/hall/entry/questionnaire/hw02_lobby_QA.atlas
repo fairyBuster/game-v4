@@ -1,0 +1,55 @@
+
+hw02_lobby_QA.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Q&A1
+  rotate: false
+  xy: 2, 104
+  size: 139, 145
+  orig: 139, 145
+  offset: 0, 0
+  index: -1
+Q&A2
+  rotate: false
+  xy: 104, 20
+  size: 64, 65
+  orig: 66, 67
+  offset: 1, 1
+  index: -1
+glow2
+  rotate: false
+  xy: 2, 2
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+guang
+  rotate: false
+  xy: 143, 165
+  size: 90, 84
+  orig: 90, 84
+  offset: 0, 0
+  index: -1
+lizi_10
+  rotate: false
+  xy: 143, 87
+  size: 95, 76
+  orig: 148, 129
+  offset: 32, 24
+  index: -1
+xx
+  rotate: false
+  xy: 235, 230
+  size: 19, 19
+  orig: 19, 19
+  offset: 0, 0
+  index: -1
+xx1
+  rotate: false
+  xy: 170, 58
+  size: 36, 27
+  orig: 36, 27
+  offset: 0, 0
+  index: -1

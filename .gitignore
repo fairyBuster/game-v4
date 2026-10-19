@@ -1,0 +1,12 @@
+# dependency (jangan commit)
+node_modules/
+
+# hasil build frontend (di-generate ulang oleh `npm run build`)
+web/dist/
+
+# database lokal + dump backup (berisi data member & hash password)
+server/data/
+backup.sql
+
+# log lokal
+*.log

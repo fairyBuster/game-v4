@@ -1,0 +1,160 @@
+
+lobby_RedPacket_wd2.png
+size: 2003,1943
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bgfx2
+  rotate: true
+  xy: 605, 325
+  size: 720, 479
+  orig: 779, 508
+  offset: 29, 28
+  index: -1
+bgfx4
+  rotate: false
+  xy: 1422, 690
+  size: 563, 379
+  orig: 572, 411
+  offset: 9, 32
+  index: -1
+hbty
+  rotate: true
+  xy: 1564, 1105
+  size: 502, 422
+  orig: 504, 425
+  offset: 1, 2
+  index: -1
+hhb1
+  rotate: true
+  xy: 1474, 214
+  size: 474, 510
+  orig: 477, 516
+  offset: 1, 5
+  index: -1
+hhb2
+  rotate: false
+  xy: 1564, 1609
+  size: 437, 332
+  orig: 439, 412
+  offset: 1, 1
+  index: -1
+hhb3
+  rotate: true
+  xy: 2, 2
+  size: 304, 499
+  orig: 452, 501
+  offset: 78, 1
+  index: -1
+hhb4
+  rotate: false
+  xy: 535, 1047
+  size: 157, 168
+  orig: 163, 172
+  offset: 3, 3
+  index: -1
+hhb4a
+  rotate: true
+  xy: 843, 1069
+  size: 146, 230
+  orig: 160, 246
+  offset: 7, 8
+  index: -1
+hhb5
+  rotate: true
+  xy: 1466, 16
+  size: 196, 229
+  orig: 208, 244
+  offset: 5, 1
+  index: -1
+hhb5a
+  rotate: false
+  xy: 503, 15
+  size: 181, 291
+  orig: 193, 312
+  offset: 6, 11
+  index: -1
+hhbg1
+  rotate: true
+  xy: 686, 2
+  size: 321, 499
+  orig: 385, 511
+  offset: 21, 1
+  index: -1
+hhbg2
+  rotate: true
+  xy: 1086, 327
+  size: 361, 386
+  orig: 364, 390
+  offset: 1, 2
+  index: -1
+hhbg3
+  rotate: false
+  xy: 1034, 1374
+  size: 528, 567
+  orig: 532, 571
+  offset: 2, 2
+  index: -1
+hhbg4
+  rotate: true
+  xy: 535, 1217
+  size: 724, 497
+  orig: 745, 498
+  offset: 10, 1
+  index: -1
+hhbg5
+  rotate: true
+  xy: 2, 1038
+  size: 903, 531
+  orig: 942, 544
+  offset: 16, 0
+  index: -1
+jb1
+  rotate: false
+  xy: 694, 1068
+  size: 147, 147
+  orig: 153, 152
+  offset: 3, 3
+  index: -1
+jb3
+  rotate: false
+  xy: 1422, 1252
+  size: 131, 120
+  orig: 141, 129
+  offset: 5, 4
+  index: -1
+lx1
+  rotate: false
+  xy: 1422, 1071
+  size: 119, 179
+  orig: 129, 181
+  offset: 4, 1
+  index: -1
+lx2
+  rotate: false
+  xy: 1187, 58
+  size: 277, 267
+  orig: 283, 271
+  offset: 1, 2
+  index: -1
+rd
+  rotate: false
+  xy: 2, 308
+  size: 601, 728
+  orig: 603, 730
+  offset: 1, 1
+  index: -1
+rdfg
+  rotate: true
+  xy: 1075, 1067
+  size: 305, 345
+  orig: 314, 367
+  offset: 2, 19
+  index: -1
+rdfg2
+  rotate: true
+  xy: 1086, 729
+  size: 336, 273
+  orig: 344, 278
+  offset: 4, 3
+  index: -1

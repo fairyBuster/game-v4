@@ -1,0 +1,62 @@
+
+hw03_lobby_welcome.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Mailg
+  rotate: false
+  xy: 2, 597
+  size: 495, 310
+  orig: 495, 310
+  offset: 0, 0
+  index: -1
+b_fx2
+  rotate: false
+  xy: 2, 131
+  size: 300, 211
+  orig: 303, 215
+  offset: 3, 3
+  index: -1
+b_fx3
+  rotate: false
+  xy: 2, 344
+  size: 393, 251
+  orig: 413, 259
+  offset: 9, 3
+  index: -1
+liz3
+  rotate: false
+  xy: 397, 415
+  size: 179, 180
+  orig: 179, 180
+  offset: 0, 0
+  index: -1
+liz4
+  rotate: false
+  xy: 864, 788
+  size: 135, 119
+  orig: 135, 119
+  offset: 0, 0
+  index: -1
+lizi1
+  rotate: false
+  xy: 499, 683
+  size: 363, 224
+  orig: 363, 224
+  offset: 0, 0
+  index: -1
+lizi2
+  rotate: false
+  xy: 2, 2
+  size: 234, 127
+  orig: 234, 127
+  offset: 0, 0
+  index: -1
+xing
+  rotate: false
+  xy: 304, 281
+  size: 61, 61
+  orig: 63, 63
+  offset: 1, 1
+  index: -1

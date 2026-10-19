@@ -1,0 +1,61 @@
+/* Gates of Olympus rebuild — 6x5 pay-anywhere, drawn inside the same 1280x720 stage. */
+
+.gates { position: absolute; inset: 0; }
+.gates-bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.gates-veil { position: absolute; inset: 0; background: radial-gradient(120% 95% at 50% 10%, rgba(8, 6, 26, .35) 25%, rgba(6, 4, 18, .88) 100%); }
+.gates-zeus { position: absolute; right: 6px; bottom: 0; height: 88%; opacity: .92; pointer-events: none; filter: drop-shadow(0 0 26px rgba(120, 90, 255, .35)); }
+
+/* header, win banner, win box live in ui.css — every game page uses the same chrome */
+
+/* ---------- left panel ---------- */
+.gates-panel { position: absolute; left: 18px; top: 84px; width: 244px; display: flex; flex-direction: column; gap: 10px; }
+.gates-spin {
+  height: 76px; border-radius: 18px; font-size: 21px; font-weight: 800; letter-spacing: 2px;
+  color: #2a1c05; background: linear-gradient(180deg, #ffe9a8, #d9a52b); border: 2px solid #fff3cf;
+}
+.gates-spin:disabled { opacity: .5; }
+.gates-bet { display: flex; align-items: center; gap: 10px; }
+.gates-bet button {
+  width: 42px; height: 42px; border-radius: 12px; font-size: 20px; color: #f0e2bb;
+  background: rgba(14, 10, 34, .85); border: 1.5px solid rgba(196, 166, 84, .45);
+}
+.gates-bet button:disabled { opacity: .45; }
+.gates-bet b { flex: 1; text-align: center; font-size: 15px; }
+.gates-auto { display: flex; gap: 8px; }
+.gates-auto button {
+  flex: 1; height: 34px; border-radius: 10px; font-size: 11.5px; font-weight: 600; color: #f0e2bb;
+  background: rgba(14, 10, 34, .8); border: 1px solid rgba(196, 166, 84, .35);
+}
+.gates-auto button.on { background: linear-gradient(180deg, #ffe6a4, #d9a52b); color: #2a1c05; }
+.gates-auto button:disabled { opacity: .45; }
+.gates-note { font-size: 10.5px; color: #948cb8; line-height: 1.5; }
+
+/* ---------- board ---------- */
+.gates-board {
+  position: absolute; left: 282px; top: 80px;
+  width: calc(var(--cell-w) * 6); height: calc(var(--cell-h) * 5);
+  display: flex; gap: 4px; padding: 8px; border-radius: 16px;
+  background: linear-gradient(180deg, rgba(38, 24, 82, .55), rgba(14, 8, 34, .72));
+  border: 2px solid rgba(196, 166, 84, .5);
+  box-shadow: inset 0 0 40px rgba(0, 0, 0, .55);
+  z-index: 2;
+}
+.gates-reel { width: var(--cell-w); display: flex; flex-direction: column; gap: 4px; }
+.gates-cell {
+  position: relative; height: var(--cell-h); border-radius: 10px;
+  display: flex; align-items: center; justify-content: center;
+  background: rgba(8, 5, 22, .55);
+}
+.gates-cell img { width: 78%; height: 78%; object-fit: contain; filter: drop-shadow(0 3px 6px rgba(0, 0, 0, .5)); }
+.gates-cell[data-busy='true'] img { transition: transform .15s; }
+.gates-cell.hit {
+  background: rgba(255, 214, 120, .16);
+  box-shadow: inset 0 0 0 2px rgba(255, 226, 150, .85);
+  animation: gates-pulse .5s ease-in-out infinite alternate;
+}
+@keyframes gates-pulse { to { box-shadow: inset 0 0 0 3px rgba(255, 246, 214, 1); } }
+.gates-orb {
+  position: absolute; inset: auto 6px 6px auto; font-size: 12px; font-weight: 800; color: #2a1c05;
+  background: linear-gradient(180deg, #fff0b8, #e0ab2a); border-radius: 10px; padding: 1px 7px;
+  border: 1px solid #fff6d8;
+}
