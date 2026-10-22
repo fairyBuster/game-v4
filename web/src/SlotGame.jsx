@@ -7,7 +7,7 @@ import { IconSound } from './icons.jsx'
 import './slot.css'
 
 const BY_ID = Object.fromEntries(SYMBOLS.map((s) => [s.id, s]))
-const BET_STEPS = [100, 250, 500, 1000, 2500, 5000, 10000]
+const BET_STEPS = [200, 500, 1000, 2500, 5000, 10000]
 const CELL_W = 124
 const CELL_H = 148
 const GAP = 2                            // horizontal gap between reels — must match .reels gap in slot.css
@@ -21,7 +21,7 @@ const rnd = (arr) => arr[Math.floor(Math.random() * arr.length)]
 const anySymbol = () => rnd(SYMBOLS).id
 
 export default function SlotGame({ user, setUser }) {
-  const [betIdx, setBetIdx] = useState(3)                 // 1000
+  const [betIdx, setBetIdx] = useState(2)                 // 1000
   const [grid, setGrid] = useState(() => Array.from({ length: REELS }, () => Array(ROWS).fill('msilver')))
   const [strips, setStrips] = useState(null)
   const [spinId, setSpinId] = useState(0)

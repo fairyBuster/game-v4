@@ -7,7 +7,7 @@ import { IconSound } from './icons.jsx'
 import './gates.css'
 
 const BY_ID = Object.fromEntries(SYMBOLS.map((s) => [s.id, s]))
-const BET_STEPS = [500, 1000, 2500, 5000, 10000, 25000]
+const BET_STEPS = [200, 500, 1000, 2500, 5000, 10000]
 const CELL_H = 92
 const CELL_W = 108
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms))

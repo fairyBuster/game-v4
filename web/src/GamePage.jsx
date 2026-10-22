@@ -18,7 +18,7 @@ export default function GamePage({ alias, game, user }) {
         </p>
         <div className="gamepage-meta">
           <span>alias <code>{alias}</code></span>
-          <span>min {fmt.format(1000)}</span>
+          <span>min {fmt.format(200)}</span>
         </div>
         <a className="btn gold" href="#/">Kembali ke Lobby</a>
       </div>

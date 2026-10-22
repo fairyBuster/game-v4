@@ -9,7 +9,7 @@ import { checkBonusTrigger, loadBonusGameConfig, startBonusGame } from './shared
 // the balance is NOT ours to keep: every stake and payout is asked of the parent,
 // which settles against the shared DY01 wallet. `balance` then becomes a mirror the
 // server keeps in sync — money still only moves on the backend.
-const PORTAL_BETS = [5000, 10000, 20000, 50000, 100000, 200000];
+const PORTAL_BETS = [200, 500, 1000, 2500, 5000, 10000];
 const portalWallet = {
     on: false,
     ready: false,

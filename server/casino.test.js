@@ -36,7 +36,7 @@ assert(balance === 1000000, 'saldo awal 1jt, dapat ' + balance)
 r = await call('/api/games/head_tail', { token })
 assert(r.status === 200, 'detail head_tail: ' + r.text)
 const cfg = r.json
-assert(cfg.win === 96 && cfg.min_limit === 1000 && cfg.max_limit === 100000, 'config head_tail salah: ' + r.text)
+assert(cfg.win === 96 && cfg.min_limit === 200 && cfg.max_limit === 10000, 'config head_tail salah: ' + r.text)
 assert(cfg.probable_win === 48, 'probable_win harus 48, dapat ' + cfg.probable_win)
 
 r = await call('/api/games/tidak_ada', { token })

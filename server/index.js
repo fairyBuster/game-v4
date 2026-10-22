@@ -35,13 +35,16 @@ const START_BALANCE = 1_000_000
 const DAILY_BONUS = 25_000
 const REF_BONUS = 50_000              // saldo buat member yang mengundang, per pendaftar baru
 const REF_WELCOME = 25_000            // saldo ekstra buat member baru yang daftar pakai kode
+const MIN_BET = 200                    // batas bet seragam semua game
+const MAX_BET = 10_000
+const BET_LADDER = [200, 500, 1000, 2500, 5000, 10_000]
 const BETS = {
-  gates: [500, 1000, 2500, 5000, 10000, 25000],
-  dy01_slot: [100, 250, 500, 1000, 2500, 5000, 10000],
+  gates: BET_LADDER,
+  dy01_slot: BET_LADDER,
 }
 // The vendor slot builds (public/vendor/simple-slots) draw their own reels but settle
-// through the same wallet: their bet ladder is rupiah and the paytable scales with the stake.
-const VENDOR_BETS = [5000, 10000, 20000, 50000, 100000, 200000]
+// through the same wallet: their rupiah ladder must match the server whitelist below.
+const VENDOR_BETS = BET_LADDER
 
 // ---------------------------------------------------------------- storage
 await mkdir(join(HERE, 'data'), { recursive: true })
@@ -217,7 +220,10 @@ function newRefCode() {
     void name
   }
   const spinCols = migrateSpins(db)
-  console.log(`[seed] casino config: ${cfg} games · spins columns +${spinCols}`)
+  // Bet seragam untuk semua game (slot, casino, vendor): min 200 / max 10.000.
+  // Ditaruh setelah loop supaya menimpa limit per-game dari CASINO_GAMES.
+  db.prepare('UPDATE games SET min_limit = ?, max_limit = ?').run(MIN_BET, MAX_BET)
+  console.log(`[seed] casino config: ${cfg} games · bet ${MIN_BET}-${MAX_BET} · spins columns +${spinCols}`)
 
   const setS = db.prepare('INSERT INTO settings (k, v) VALUES (?, ?) ON CONFLICT(k) DO NOTHING')
   for (const [k, v] of Object.entries(SETTINGS)) setS.run(k, String(v))

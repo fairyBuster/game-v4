@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import { useApp } from './app.jsx'
 
 /**
@@ -18,6 +19,13 @@ export default function BetPanel({
   const { balance, demo, fmtMoney } = useApp()
   const min = Number(game?.min_limit || 1)
   const max = Number(game?.max_limit || 0)
+
+  // Komponen Casino-App mulai dari 10 (skala demo mereka); begitu config game datang,
+  // tarik invest ke min_limit DY01 supaya tombol play nggak langsung ditolak server.
+  useEffect(() => {
+    const m = Number(game?.min_limit || 0)
+    if (m) setInvest((cur) => (Number(cur || 0) < m ? m : cur))
+  }, [game?.min_limit, setInvest])
 
   const bump = (factor) => {
     let next = Math.round(Number(invest || 0) * factor * 100) / 100
